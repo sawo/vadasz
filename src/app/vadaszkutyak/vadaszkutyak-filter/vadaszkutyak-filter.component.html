@@ -15,7 +15,7 @@
 
     <ion-searchbar placeholder="Név" [(ngModel)]="filterByName"></ion-searchbar>
 
-    <p *ngIf="categoryError" class="warning">Válasszon ki legalább egy kategória opciót!</p>
+    @if (categoryError) { <p class="warning">Válasszon ki legalább egy kategória opciót!</p> }
     <ion-item>
       <ion-label>Kategória</ion-label>
     </ion-item>

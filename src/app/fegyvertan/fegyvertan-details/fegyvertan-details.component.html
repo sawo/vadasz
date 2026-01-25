@@ -1,6 +1,6 @@
 <ion-header translucent>
   <ion-toolbar>
-    <ion-title *ngIf="dataLoaded | async">{{currentOption.name}}</ion-title>
+        @if (dataLoaded | async) { <ion-title>{{currentOption.name}}</ion-title> }
     <ion-buttons slot="start">
       <ion-back-button defaultHref="fegyvertan"
                        text="Vissza">
@@ -9,7 +9,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content *ngIf="dataLoaded | async" color="light">
+@if (dataLoaded | async) { <ion-content color="light">
 
   <ion-card class="ion-card-for-cover margin">
 
@@ -27,24 +27,27 @@
     </ion-grid>
   </div>
 
-  <div class="pre-text"
-       [innerHTML]="currentOption.preText"
-       *ngIf="currentOption.preText"></div>
+    @if (currentOption.preText) {
+    <div class="pre-text"
+         [innerHTML]="currentOption.preText"></div>
+  }
 
-  <div *ngIf="currentOption.paragraphs" class="accordion-container">
-    <div class="accordion-body"
-         *ngFor="let option of currentOption.paragraphs, let i = index">
-      <div class="accordion-head"
-           (click)="this.accordionOpen[i] = !this.accordionOpen[i]">
-        <span [innerHTML]="option.title"></span>
-        <i class="fas fa-chevron-right"
-           [ngStyle]="{'transform': accordionOpen[i] ? 'rotate(0.25turn)' : (!accordionOpen[i] ? 'none' : null)}"></i>
-      </div>
-      <div class="accordion-content"
-           [innerHTML]="option.description"
-           [ngClass]="!accordionOpen[i] ? 'hidden' : null">
-      </div>
-    </div>
-  </div>
+    @if (currentOption.paragraphs) {
+    <div class="accordion-container">
+        @for (option of currentOption.paragraphs; let i = $index; track option.title) {
+          <div class="accordion-body">
+            <div class="accordion-head"
+                 (click)="this.accordionOpen[i] = !this.accordionOpen[i]">
+              <span [innerHTML]="option.title"></span>
+              <i class="fas fa-chevron-right"
+                 [ngStyle]="{'transform': accordionOpen[i] ? 'rotate(0.25turn)' : (!accordionOpen[i] ? 'none' : null)}"></i>
+            </div>
+            <div class="accordion-content"
+                 [innerHTML]="option.description"
+                 [ngClass]="!accordionOpen[i] ? 'hidden' : null">
+            </div>
+          </div>
+        }    </div>
+  }
 
-</ion-content>
+</ion-content> }

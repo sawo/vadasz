@@ -2,17 +2,17 @@
     <ion-toolbar>
         <ion-title>Vadbetegségek</ion-title>
         <ion-buttons slot="start">
-            <ion-menu-button *ngIf="detailsPage == ''"></ion-menu-button>
-            <ion-button *ngIf="detailsPage !== ''" (click)="detailsPage = ''">
+            @if (detailsPage == '') { <ion-menu-button></ion-menu-button> }
+            @if (detailsPage !== '') { <ion-button (click)="detailsPage = ''">
                 <ion-icon name="arrow-back-outline"></ion-icon>
                 Vissza
-            </ion-button>
+            </ion-button> }
         </ion-buttons>
     </ion-toolbar>
 </ion-header>
 
 <ion-content color="light">
-    <ion-grid *ngIf="detailsPage == ''">
+    @if (detailsPage == '') { <ion-grid>
         <ion-row style="padding-top: 2em">
             <ion-col>
                 <a (click)="detailsPage = 'szárnyas'"><img src="assets/icon/szarnyasbeteg.svg" width="80%" class="ion-float-right"></a>
@@ -28,9 +28,9 @@
             <ion-col></ion-col>
         </ion-row>
 
-    </ion-grid>
+    </ion-grid> }
 
-    <div *ngIf="detailsPage == 'szárnyas'">
+    @if (detailsPage == 'szárnyas') { <div>
         <h1>A szárnyasvad betegségei</h1>
 
         <h2>Baromfipestis</h2>
@@ -86,8 +86,8 @@
 
         <p>A vérszívó légcsőféreg (Syngamus tracheae) főként a tyúkfélékre nézve veszélyes. A fertőzött madarakból tüsszentéssel, vagy az ürülékkel kijutó féregpetékből fejlődő lárvák földigilisztákban, csigákban halmozódnak fel. Különösen eső után nagy a fertőzés veszélye a földes kifutókba kiengedett csibékre. A gilisztával bejutott lárvák előbb a tüdőben vándorolva, majd a légcsőben, hörgőkben megtapadva légzési nehézséget, később vérszegénységet okoznak. Az étvágytalan, gubbasztó, lesoványodott madarak el is pusztulhatnak.</p>
 
-    </div>
-    <div *ngIf="detailsPage == 'nyúl'">
+    </div> }
+    @if (detailsPage == 'nyúl') { <div>
 
         <h1>A mezei nyúl fontosabb betegségei</h1>
 
@@ -106,8 +106,8 @@
         <br>
         <img src="assets/betegsegek/tularemia.jpg"><br>
         <p>Nyúlnál észlelhető tünetei a tüdő csúcslebenyeiben, olykor a lépben, májban, vesében és a nyirokcsomókban kölesnyi-borsszemnyi, egyenetlen szélű, a felület fölé emelkedő gócok, olykor góchalmazok.</p>
-    </div>
-    <div *ngIf="detailsPage == 'csülkös'">
+    </div> }
+    @if (detailsPage == 'csülkös') { <div>
 
         <h1>A csülkös vad vírus okozta betegségei</h1>
         <p>Általánosságban elmondható róluk, hogy igen magas (akár 100%-ot elérő) elhullással járnak. A kialakult betegség többnyire gyógyíthatatlan. A betegség lefolyása gyors, néhány nap vagy egy-két hét.
@@ -222,6 +222,6 @@
         <h2>Tejsav túlterhelés (bendőacidózis)</h2>
 
         <p>Jellegzetes mérgezés a tejsav túlterhelés. A nagy mennyiségben elfogyasztott magas keményítő tartalmú gabona abrak a bendőben történő erjedése során tejsavat termel, mely egyrészt felborítja a bendő PH-ját, ezzel hasmenést, erős nyálzást, illetve keringési és légzési nehézségeket okoz. Ez sajnos sokszor végzetes a vadra nézve. A bendő PH-ja nem csak a benne képződött tejsavtól borulhat fel, hanem a rosszul tartósított szilázzsal kívülről bevitt tejsav miatt is. </p>
-    </div>
+    </div> }
 
 </ion-content>

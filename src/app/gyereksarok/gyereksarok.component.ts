@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { AsyncPipe, NgForOf, NgIf } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 
 @Component({

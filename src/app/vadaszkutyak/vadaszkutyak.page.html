@@ -23,36 +23,39 @@
     </ion-row>
   </ion-grid>
   <ion-grid>
-    <ion-row *ngIf="dataLoaded | async"
-             class="animal-row">
-      <ion-col size="5"
-               size-md="2"
-               class="animal-details-link animal-card margin-0"
-               [routerAnimation]=""
-               *ngFor="let huntingDog of huntingDogs"
-               [routerLink]="huntingDog.linkName"
-               [state]="{data: huntingDog.id}"
-               routerDirection="forward">
-        <div class="image-container">
-          <img class="animal-cards"
-               [src]="'/assets/' + huntingDog.picture"
-               (error)="fetchLocalDataService.setPlaceholderImg($event)">
-        </div>
+    @if (dataLoaded | async) {
+      <ion-row class="animal-row">
+        @for (huntingDog of huntingDogs; track huntingDog.id) {
+          <ion-col size="5"
+                   size-md="2"
+                   class="animal-details-link animal-card margin-0"
+                   [routerAnimation]=""
+                   [routerLink]="huntingDog.linkName"
+                   [state]="{data: huntingDog.id}"
+                   routerDirection="forward">
+            <div class="image-container">
+              <img class="animal-cards"
+                   [src]="'/assets/' + huntingDog.picture"
+                   (error)="fetchLocalDataService.setPlaceholderImg($event)">
+            </div>
 
-        <span class="animal-name ion-text-center">{{huntingDog.name}}</span>
+            <span class="animal-name ion-text-center">{{huntingDog.name}}</span>
 
-        <!--<ion-img class="animal-cards"
-                 [src]="'/assets/' + animal.picture"></ion-img>
-                 <span class="animal-name">{{animal.name}}</span>
-        -->
-      </ion-col>
-      <ion-col *ngIf="isOdd"
-               size="5"
-               size-md="2"
-               class="margin-0"
-               routerDirection="forward">
-      </ion-col>
-    </ion-row>
+            <!--<ion-img class="animal-cards"
+                     [src]="'/assets/' + animal.picture"></ion-img>
+                     <span class="animal-name">{{animal.name}}</span>
+            -->
+          </ion-col>
+        }
+        @if (isOdd) {
+          <ion-col size="5"
+                   size-md="2"
+                   class="margin-0"
+                   routerDirection="forward">
+          </ion-col>
+        }
+      </ion-row>
+    }
   </ion-grid>
 
 </ion-content>

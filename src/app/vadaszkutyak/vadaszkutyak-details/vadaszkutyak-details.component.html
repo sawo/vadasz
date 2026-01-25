@@ -1,6 +1,6 @@
 <ion-header translucent>
   <ion-toolbar>
-    <ion-title *ngIf="dataLoaded | async">{{currentDog.name}}</ion-title>
+    @if (dataLoaded | async) { <ion-title>{{currentDog.name}}</ion-title> }
     <ion-buttons slot="start">
       <ion-back-button defaultHref="vadaszkutyak"
                        text="Vissza">
@@ -9,7 +9,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content *ngIf="dataLoaded | async" color="light">
+@if (dataLoaded | async) { <ion-content color="light">
 
   <ion-card class="ion-card-for-cover margin">
     <ion-card-content class="ion-card-content-for-cover">
@@ -28,4 +28,4 @@
   </div>
   <div class="text-padding details-text"
        [innerHTML]="currentDog.description"></div>
-</ion-content>
+</ion-content> }

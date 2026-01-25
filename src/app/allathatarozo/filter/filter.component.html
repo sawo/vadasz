@@ -20,7 +20,9 @@
         <ion-searchbar placeholder="Leírás" [(ngModel)]="filterByDescription"></ion-searchbar>
 
 
-        <p *ngIf="categoryError" class="warning">Válasszon ki legalább egy kategória opciót!</p>
+                @if (categoryError) {
+<p class="warning">Válasszon ki legalább egy kategória opciót!</p>
+        }
         <ion-item>
             <ion-label>Kategória</ion-label>
         </ion-item>
@@ -44,7 +46,9 @@
         </ion-grid>
 
 
-        <p *ngIf="huntableError" class="warning">Válasszon ki legalább egy vadászható opciót!</p>
+                @if (huntableError) {
+<p class="warning">Válasszon ki legalább egy vadászható opciót!</p>
+        }
         <ion-item>
             <ion-label>Vadászható-e?</ion-label>
         </ion-item>

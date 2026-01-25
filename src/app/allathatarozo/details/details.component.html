@@ -65,9 +65,9 @@
       @for (month of getObjectKeys(huntingseason.months); track month) {
         <ion-col size="1" class="huntable-month">
           <p style="position: absolute; width: 100%; margin: 30% auto 0 auto; text-align: center;">{{month}}</p>
-          @if (huntingseason.months[month]==0) { <img src="assets/icon/nemvadaszhato.svg"> }
-          @if (huntingseason.months[month]==1) { <img src="assets/icon/feligvadaszhato.svg"> }
-          @if (huntingseason.months[month]==3) { <img src="assets/icon/vadaszhato.svg"> }
+          @if (huntingseason.months[month]===0) { <img src="assets/icon/nemvadaszhato.svg"> }
+          @if (huntingseason.months[month]===1) { <img src="assets/icon/feligvadaszhato.svg"> }
+          @if (huntingseason.months[month]===3) { <img src="assets/icon/vadaszhato.svg"> }
         </ion-col>
       }
       </ion-row>
