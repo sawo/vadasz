@@ -4,11 +4,22 @@ import { FetchLocalDataService } from '../services/fetch-local-data.service';
 import { VadaszkutyakFilterComponent } from './vadaszkutyak-filter/vadaszkutyak-filter.component';
 import { VadaszkutyaModel } from './vadaszkutya.model';
 import { FilteringService } from '../services/filtering.service';
+import { IonicModule } from '@ionic/angular';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
              selector: 'app-vadaszkutyak',
              templateUrl: './vadaszkutyak.page.html',
-             styleUrls: ['./vadaszkutyak.page.scss']
+             styleUrls: ['./vadaszkutyak.page.scss'],
+             standalone: true,
+             imports: [
+                CommonModule,
+                FormsModule,
+                IonicModule,
+                RouterModule,
+              ]
            })
 export class VadaszkutyakPage implements OnInit {
 

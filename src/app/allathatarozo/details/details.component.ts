@@ -2,11 +2,22 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AnimalModel } from '../animal.model';
 import { FetchLocalDataService } from '../../services/fetch-local-data.service';
+import { IonicModule } from '@ionic/angular';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { SlidesModule } from '../../slides/slides.module';
 
 @Component({
              selector: 'app-details',
              templateUrl: './details.component.html',
-             styleUrls: ['./details.component.scss']
+             styleUrls: ['./details.component.scss'],
+             standalone: true,
+             imports: [
+                CommonModule,
+                FormsModule,
+                IonicModule,
+                SlidesModule
+              ]
            })
 
 export class DetailsComponent implements OnInit {
@@ -54,12 +65,5 @@ export class DetailsComponent implements OnInit {
   getObjectKeys(obj) {
     return Object.keys(obj);
   }
-
-  slideOptions = {
-    initialSlide: 0,
-    slidesPerView: 1,
-    autoplay: true,
-    speed: 400
-  };
 
 }

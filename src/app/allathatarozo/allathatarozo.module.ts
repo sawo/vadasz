@@ -15,8 +15,10 @@ import { DetailsComponent } from './details/details.component';
     CommonModule,
     FormsModule,
     IonicModule,
-    AllathatarozoPageRoutingModule
+    AllathatarozoPageRoutingModule,
+    AllathatarozoPage,
+    FilterComponent,
+    DetailsComponent
   ],
-  declarations: [AllathatarozoPage, FilterComponent, DetailsComponent]
 })
 export class AllathatarozoPageModule {}

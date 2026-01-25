@@ -15,8 +15,10 @@ import { VadaszkutyakDetailsComponent } from './vadaszkutyak-details/vadaszkutya
     CommonModule,
     FormsModule,
     IonicModule,
-    VadaszkutyakPageRoutingModule
+    VadaszkutyakPageRoutingModule,
+    VadaszkutyakPage,
+    VadaszkutyakFilterComponent,
+    VadaszkutyakDetailsComponent
   ],
-  declarations: [VadaszkutyakPage, VadaszkutyakFilterComponent, VadaszkutyakDetailsComponent]
 })
 export class VadaszkutyakPageModule {}

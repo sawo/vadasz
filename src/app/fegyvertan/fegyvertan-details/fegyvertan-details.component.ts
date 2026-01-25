@@ -1,11 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FetchLocalDataService } from '../../services/fetch-local-data.service';
+import { IonicModule } from '@ionic/angular';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
              selector: 'app-fegyvertan-details',
              templateUrl: './fegyvertan-details.component.html',
-             styleUrls: ['./fegyvertan-details.component.scss']
+             styleUrls: ['./fegyvertan-details.component.scss'],
+             standalone: true,
+             imports: [
+                CommonModule,
+                FormsModule,
+                IonicModule,
+                RouterModule
+              ]
            })
 export class FegyvertanDetailsComponent implements OnInit {
   private passedData: number;

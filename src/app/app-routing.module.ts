@@ -3,6 +3,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { DetailsComponent } from './allathatarozo/details/details.component';
 import { FegyvertanDetailsComponent } from './fegyvertan/fegyvertan-details/fegyvertan-details.component';
 import { VadaszkutyakDetailsComponent } from './vadaszkutyak/vadaszkutyak-details/vadaszkutyak-details.component';
+import { GyereksarokComponent } from './gyereksarok/gyereksarok.component';
 
 const routes: Routes = [
   {
@@ -48,6 +49,10 @@ const routes: Routes = [
   {
     path: 'fegyvertan',
     loadChildren: () => import('./fegyvertan/fegyvertan.module').then(m => m.FegyvertanPageModule)
+  },
+  {
+    path: 'gyereksarok',
+    component: GyereksarokComponent
   }
 ];
 

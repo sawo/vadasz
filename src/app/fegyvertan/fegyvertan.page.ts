@@ -1,10 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 import { FetchLocalDataService } from '../services/fetch-local-data.service';
+import { IonicModule } from '@ionic/angular';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
              selector: 'app-fegyvertan',
              templateUrl: './fegyvertan.page.html',
-             styleUrls: ['./fegyvertan.page.scss']
+             styleUrls: ['./fegyvertan.page.scss'],
+             standalone: true,
+             imports: [
+                CommonModule,
+                FormsModule,
+                IonicModule,
+                RouterModule
+              ]
            })
 export class FegyvertanPage implements OnInit {
 

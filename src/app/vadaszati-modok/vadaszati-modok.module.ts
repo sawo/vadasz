@@ -6,15 +6,15 @@ import { IonicModule } from '@ionic/angular';
 
 import { VadaszatiModokPageRoutingModule } from './vadaszati-modok-routing.module';
 
-import { VadaszatiModokPage } from './vadaszati-modok-page.component';
+import { VadaszatiModokPageComponent } from './vadaszati-modok-page.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    VadaszatiModokPageRoutingModule
+    VadaszatiModokPageRoutingModule,
+    VadaszatiModokPageComponent
   ],
-  declarations: [VadaszatiModokPage]
 })
 export class VadaszatiModokPageModule {}

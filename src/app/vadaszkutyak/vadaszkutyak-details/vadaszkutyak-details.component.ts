@@ -2,11 +2,22 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FetchLocalDataService } from '../../services/fetch-local-data.service';
 import { AnimalModel } from '../../allathatarozo/animal.model';
+import { IonicModule } from '@ionic/angular';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-vadaszkutyak-details',
   templateUrl: './vadaszkutyak-details.component.html',
   styleUrls: ['./vadaszkutyak-details.component.scss'],
+  standalone: true,
+  imports: [
+    CommonModule,
+    FormsModule,
+    IonicModule,
+    RouterModule
+  ]
 })
 export class VadaszkutyakDetailsComponent implements OnInit {
 

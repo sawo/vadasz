@@ -50,7 +50,7 @@ export class FilteringService {
       }
     }
     if (this.sortedHuntingDogFilters || this.huntingDogNameFilter) {
-      this.isHuntingDogFilteringRequired.next();
+      this.isHuntingDogFilteringRequired.next(true);
     }
   }
 
@@ -62,17 +62,17 @@ export class FilteringService {
     this.animalCheckboxValues = animalCheckboxValues;
     this.huntingSeasonCheckbox = huntingSeasonCheckbox;
 
-    this.isAnimalFilteringRequired.next();
+    this.isAnimalFilteringRequired.next(true);
   }
 
   resetFilters(type) {
     this.filters = false;
     switch (type) {
       case "animal":
-        this.isAnimalFilteringRequired.next();
+        this.isAnimalFilteringRequired.next(true);
         break;
       case "huntingDog":
-        this.isHuntingDogFilteringRequired.next();
+        this.isHuntingDogFilteringRequired.next(true);
         break;
     }
   }

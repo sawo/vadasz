@@ -4,11 +4,22 @@ import {IonRouterOutlet, ModalController} from '@ionic/angular';
 import {FilterComponent} from './filter/filter.component';
 import {FetchLocalDataService} from '../services/fetch-local-data.service';
 import {FilteringService} from '../services/filtering.service';
+import { IonicModule } from '@ionic/angular';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
     selector: 'app-allathatarozo',
     templateUrl: './allathatarozo.page.html',
-    styleUrls: ['./allathatarozo.page.scss']
+    styleUrls: ['./allathatarozo.page.scss'],
+    standalone: true,
+    imports: [
+      CommonModule,
+      FormsModule,
+      IonicModule,
+      RouterModule,
+    ]
 })
 export class AllathatarozoPage implements OnInit {
 
@@ -158,7 +169,6 @@ export class AllathatarozoPage implements OnInit {
         const modal = await this.modalController.create({
             component: FilterComponent,
             cssClass: 'my-custom-class',
-            swipeToClose: true,
             presentingElement: this.routerOutlet.nativeEl
         });
         return await modal.present();

@@ -13,8 +13,8 @@ import { VadbetegsegekPage } from './vadbetegsegek.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    VadbetegsegekPageRoutingModule
+    VadbetegsegekPageRoutingModule,
+    VadbetegsegekPage
   ],
-  declarations: [VadbetegsegekPage]
 })
 export class VadbetegsegekPageModule {}

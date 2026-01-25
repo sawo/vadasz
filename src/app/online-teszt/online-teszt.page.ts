@@ -1,18 +1,34 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Question } from './question.model';
 import { Answer } from './answer.model';
-import { Animation, AnimationController, IonSlides } from '@ionic/angular';
+import { Animation, AnimationController } from '@ionic/angular';
+import { IonicModule } from '@ionic/angular';
+import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
+import { Chart, ChartData, ChartOptions, ChartType, ArcElement, Tooltip, Legend, PieController } from 'chart.js';
 
+
+import { BaseChartDirective } from 'ng2-charts';
 
 @Component({
              selector: 'app-online-teszt',
              templateUrl: './online-teszt.page.html',
-             styleUrls: ['./online-teszt.page.scss']
+             styleUrls: ['./online-teszt.page.scss'],
+             standalone: true,
+             imports: [
+                CommonModule,
+                FormsModule,
+                IonicModule,
+                RouterModule,
+                BaseChartDirective
+              ],
+              schemas: [CUSTOM_ELEMENTS_SCHEMA]
            })
 export class OnlineTesztPage implements OnInit {
 
   constructor(private animationCtrl: AnimationController) {
-
+    Chart.register(PieController, ArcElement, Tooltip, Legend);
   }
   public selectedQuestion = 0;
   public questions: Question[];
@@ -39,8 +55,8 @@ export class OnlineTesztPage implements OnInit {
   public counterMinute: number;
   public isCounterOn: boolean;
 
-  type = 'pie';
-  data = {
+  public type: ChartType = 'pie';
+  public data: ChartData = {
     labels: [
       'Jó válasz',
       'Rossz válasz',
@@ -63,20 +79,25 @@ export class OnlineTesztPage implements OnInit {
       }
     ]
   };
-  options = {
+  public options: ChartOptions = {
     responsive: true,
     maintainAspectRatio: false
   };
 
-  @ViewChild('slider') slider: IonSlides;
+  swiper: any;
   randomCopy: any[];
 
-  slideOptions = {
-    autoHeight: true,
-    initialSlide: 0,
-    slidesPerView: 1,
-    autoplay: false
-  };
+  @ViewChild('slider') set slider(sliderRef: ElementRef<any>) {
+    if (sliderRef) {
+      this.swiper = sliderRef.nativeElement.swiper;
+      if (this.swiper) {
+        this.swiper.on('slideChange', () => {
+          this.selectedQuestion = this.swiper.activeIndex;
+          this.updateProgressBar();
+        });
+      }
+    }
+  }
 
   ngOnInit() {
     this.loadQADatabase();
@@ -176,7 +197,7 @@ export class OnlineTesztPage implements OnInit {
     await new Promise(f => setTimeout(f, 500));
     if (this.selectedQuestion < this.questions.length - 1) {
       this.selectedQuestion++;
-      this.slider.slideNext();
+      this.swiper.slideNext();
       this.updateProgressBar();
     }
   }
@@ -184,7 +205,7 @@ export class OnlineTesztPage implements OnInit {
   nextPage() {
     if (this.selectedQuestion < this.questions.length - 1) {
       this.selectedQuestion++;
-      this.slider.slideNext();
+      this.swiper.slideNext();
       this.updateProgressBar();
     }
   }
@@ -192,7 +213,7 @@ export class OnlineTesztPage implements OnInit {
   previousPage() {
     if (this.selectedQuestion > 0) {
       this.selectedQuestion--;
-      this.slider.slidePrev();
+      this.swiper.slidePrev();
       this.updateProgressBar();
     }
   }
@@ -227,13 +248,6 @@ export class OnlineTesztPage implements OnInit {
 
   updateProgressBar() {
     this.currentProgress = (this.selectedQuestion + 1) / this.questions.length;
-  }
-
-  getActiveSlideIndex() {
-    this.slider.getActiveIndex().then((index: number) => {
-      this.selectedQuestion = index;
-      this.updateProgressBar();
-    });
   }
 
   populateProgressBarValues() {

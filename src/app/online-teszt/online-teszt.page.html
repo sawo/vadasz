@@ -8,37 +8,44 @@
 </ion-header>
 
 <ion-content color="light">
-  <ion-card *ngIf="isNewGame"  color="light">
+  @if (isNewGame) {
+  <ion-card color="light">
     <ion-card-content>
       <ion-grid>
         <ion-row>
-          <ion-col class="number-of-questions" color="light">
-            <ion-label >
+          <ion-col class="number-of-questions"
+                   color="light">
+            <ion-label>
               Kérdések száma
             </ion-label>
           </ion-col>
           <ion-col>
             <ion-select [(ngModel)]="numberOfQuestions"
                         placeholder="Válassz!">
-              <ion-select-option [value]="i"
-                                 *ngFor="let i of [10,50,100]">{{i}}</ion-select-option>
+              @for (i of [10,50,100]; track i) {
+              <ion-select-option [value]="i">{{i}}</ion-select-option>
+              }
             </ion-select>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col>
-            <ion-button (click)="startNewGame()" class="start-button">Mehet</ion-button>
+            <ion-button (click)="startNewGame()"
+                        class="start-button">Mehet</ion-button>
           </ion-col>
         </ion-row>
         <ion-row>
-          <ion-text class="tip" color="dark">
-            Tipp: A kérdések között jobbra és balra húzással, és gombok segítségével is tud lapozni.
+          <ion-text class="tip"
+                    color="dark">
+            Tipp: A kérdések között jobra és balra húzással, és gombok segítségével is tud lapozni.
           </ion-text>
         </ion-row>
       </ion-grid>
     </ion-card-content>
   </ion-card>
-  <ion-grid *ngIf="!this.isNewGame" color="light">
+  }
+  @if (!this.isNewGame) {
+  <ion-grid color="light">
     <ion-row>
       <ion-col>
         <ion-button color="light"
@@ -50,76 +57,95 @@
     </ion-row>
     <ion-row>
       <ion-text class="counter">
-        Eltelt idő: <span *ngIf="counterMinute < 10">0</span>{{counterMinute}}:<span *ngIf="counterSecond < 10">0</span>{{counterSecond}}
+        Eltelt idő: @if (counterMinute < 10) {<span>0</span>}{{counterMinute}}:@if (counterSecond < 10) {<span>0</span>}{{counterSecond}}
       </ion-text>
     </ion-row>
   </ion-grid>
+  }
 
-  <ion-slides *ngIf="!this.finished && !this.isNewGame" [options]="slideOptions" (ionSlideDidChange)="getActiveSlideIndex()" #slider >
-    <ion-slide *ngFor="let question of this.questions; let i = index">
+  @if (!this.finished && !this.isNewGame) {
+  <swiper-container #slider>
+    @for (question of this.questions; let i = $index; track question.id) {
+    <swiper-slide>
 
       <ion-grid>
         <ion-row>
           <ion-card class="question-card shake">
             <ion-progress-bar value="{{progressBarValues[i]}}"></ion-progress-bar>
             <ion-card-header color="light">
-              <ion-card-title class="question-title">{{this.question.question}}</ion-card-title>
+              <ion-card-title class="question-title">{{question.question}}</ion-card-title>
             </ion-card-header>
-            <ion-card-content color="light" style="background-color: whitesmoke;">
-              <ion-list lines="none" style="background-color: whitesmoke;">
-                <ion-radio-group name="{{this.question.question}}" >
-                  <ion-item class="answer-item" color="light"
-                            *ngFor="let answer of this.question.answers; let answerId=index">
+            <ion-card-content color="light"
+                              style="background-color: whitesmoke;">
+              <ion-list lines="none"
+                        style="background-color: whitesmoke;">
+                <ion-radio-group name="{{question.question}}">
+                  @for (answer of question.answers; let answerId=$index; track answerId) {
+                  <ion-item class="answer-item"
+                            color="light">
                     <ion-button class="letter-button"
                                 (click)="answerQuestion(selectedQuestion, answerId)"
                                 [ngClass]="{'correct-answer': answerId === question.correctAnswerId && questionAnswered[i], 'wrong-answer': !answers[i].correct && questionAnswered[i] && answerId === selectedAnswer[i]}">{{questionLetters[answerId]}}</ion-button>
                     <ion-button class="answer-button"
-                                (click)="answerQuestion(selectedQuestion, answerId)"
+                                (click)="answer.answerQuestion(selectedQuestion, answerId)"
                                 [ngClass]="{'correct-answer': answerId === question.correctAnswerId && questionAnswered[i], 'wrong-answer': !answers[i].correct && questionAnswered[i] && answerId === selectedAnswer[i]}">{{answer}}</ion-button>
                   </ion-item>
+                  }
                 </ion-radio-group>
               </ion-list>
             </ion-card-content>
           </ion-card>
         </ion-row>
         <ion-row>
-          <ion-grid *ngIf="!this.finished && !this.isNewGame">
+          @if (!this.finished && !this.isNewGame) {
+          <ion-grid>
             <ion-row>
-              <ion-col *ngIf="i !== 0">
+              @if (i !== 0) {
+              <ion-col>
                 <ion-button color="light"
                             expand="block"
                             (click)="previousPage()">
                   Előző
                 </ion-button>
               </ion-col>
-              <ion-col *ngIf="i + 1 !== questions.length">
+              }
+              @if (i + 1 !== questions.length) {
+              <ion-col>
                 <ion-button color="dark"
                             expand="block"
                             (click)="nextPage()">
                   Következő
                 </ion-button>
               </ion-col>
+              }
             </ion-row>
           </ion-grid>
+          }
         </ion-row>
         <ion-row>
-          <ion-col *ngIf="i + 1 === questions.length && !finished">
+          @if (i + 1 === questions.length && !finished) {
+          <ion-col>
             <ion-button class="evaluation-button"
                         expand="block"
                         (click)="this.finished = true; this.isCounterOn = false">
               Kiértékelés
             </ion-button>
           </ion-col>
+          }
         </ion-row>
       </ion-grid>
 
-    </ion-slide>
-  </ion-slides>
+    </swiper-slide>
+    }
+  </swiper-container>
+  }
 
   <ion-grid>
-    <ion-row *ngIf="finished">
+    @if (finished) {
+    <ion-row>
 
-      <ion-card *ngIf="getSuccessPercent() > 0.66" class="question-card">
+      @if (getSuccessPercent() > 0.66) {
+      <ion-card class="question-card">
         <ion-card-header>
           <ion-card-title class="ion-text-center success">
             Gratulálunk!
@@ -131,8 +157,9 @@
           </span>
         </ion-card-content>
       </ion-card>
-
-      <ion-card *ngIf="getSuccessPercent() <= 0.66 && getSuccessPercent() > 50" class="question-card">
+      }
+      @if (getSuccessPercent() <= 0.66 && getSuccessPercent() > 50) {
+      <ion-card class="question-card">
         <ion-card-header>
           <ion-card-title class="ion-text-center good-enough">
             Lehetne jobb is!
@@ -144,8 +171,9 @@
           </span>
         </ion-card-content>
       </ion-card>
-
-      <ion-card *ngIf="getSuccessPercent() < 0.5" class="question-card">
+      }
+      @if (getSuccessPercent() < 0.5) {
+      <ion-card class="question-card">
         <ion-card-header>
           <ion-card-title class="ion-text-center unsuccess">
             Sajnáljuk!
@@ -157,7 +185,7 @@
           </span>
         </ion-card-content>
       </ion-card>
-
+      }
       <ion-col>
         <ion-button color="dark"
                     expand="block"
@@ -166,8 +194,14 @@
         </ion-button>
       </ion-col>
     </ion-row>
+    }
   </ion-grid>
 
-  <chart [type]="type" [data]="data" [options]="options" *ngIf="this.showChart && !this.isNewGame"></chart>
+  @if (this.showChart && !this.isNewGame) {
+  <canvas baseChart
+          [data]="data"
+          [type]="type"
+          [options]="options"></canvas>
+  }
 
 </ion-content>

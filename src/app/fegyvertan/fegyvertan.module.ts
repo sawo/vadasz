@@ -14,8 +14,9 @@ import { FegyvertanDetailsComponent } from './fegyvertan-details/fegyvertan-deta
     CommonModule,
     FormsModule,
     IonicModule,
-    FegyvertanPageRoutingModule
+    FegyvertanPageRoutingModule,
+    FegyvertanPage,
+    FegyvertanDetailsComponent
   ],
-  declarations: [FegyvertanPage, FegyvertanDetailsComponent]
 })
 export class FegyvertanPageModule {}
