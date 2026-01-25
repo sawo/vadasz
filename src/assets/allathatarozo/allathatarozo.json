@@ -1,0 +1,1664 @@
+[
+  {
+    "name": "Nagy lilik",
+    "nameInLatin": "Anser albifrons",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/nagylilik.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "footprint": "",
+    "description": "Hímjét gúnárnak, nőstényét tojónak hívjuk. A nagy lilik szürkésbarna színezetű lúdfaj. Feje, nyaka és háta barnás, begye és hasa szürkés árnyalatú. A fajra jellemző felnőttkori bélyeg a csőr körülifehér folt, amely a homlokot is beborítja. Csőre hússzínű, a lába a hússzínűtől a narancssárga árnyalatúig terjed, az elpusztult állatoknál elszíntelenedik. Az idősebb madarak hasán fekete harántmintázattalálható, amely néha összefüggő foltot is alkothat. A fiatal madaraknál a fehér homlokfolt és a has mintázata hiányzik, így könnyen kiválaszthatók a csapatból, megállapítható az első éves egyedek aránya. Az ivarok szemre nem térnek el egymástól, így azokat csak kézbe véve, az ún. „kloáka-teszt” segítségével lehet elkülöníteni. Hangja jellegzetes „lii-lik – lii-lik” kiáltás. Eurázsiai fészkelő áreája Oroszország ÉNy-i területeitől az észak-szibériai Kolimáig, valamint a Novaja Zemlja déli szigeteiig húzódik, ami folytatódik Észak-Amerikában és Grönlandon is. Magyarországon tehát nem költ. Az arktikus és cserjés tundrák, mocsaras területek fahatár feletti fészkelőmadara. Vonulási időszakban kötődik a nedves gyepterületekhez, ezért hazánkban elsősorban azalföldi nedves gyepek a legkedveltebb tartózkodási helyei. Telelőhelyein még szántóterületeken, tarlókon is rendszeresen előfordul. Tartós párkapcsolat jellemzi. Május közepén/június elején történik meg a költőterületek felkeresése. A fészek építése június elején kezdődik, amikor a hótakaró eltűnik, s a tojásrakással és kotlással együtt egy erős hónapig – legfeljebb július végéig – tart a költés. Rendszerint szabadon, vagy legfeljebb kisebb cserjék takarásába rakja fészkét. Az átlagos fészekalj 4-5 tojás, a kotlás 27-28nap. A fészekhagyó kislibák 7-8 hetesen válnak repülősekké. A nagy lilik napi táplálékszükséglete 650–800 g, amit nagy részben a fűfélékből elégít ki mind a költőterületeken, mind a telelőterületeken. Telelőterületein a termesztett növények hajtásait, illetve termését, főként a kukoricaszemet is szívesen fogyasztja. Európai telelő állománya meghaladja az 1–1,5 millió, a hazai a 100–120 ezer példányt. Gyakoriátvonuló és téli vendég, főként az Alföldön, de újabban a Dunántúlon is. Az első nagy lilikek érkezése Magyarországon szeptember közepére/végére tehető, számuk november–decemberben tetőzik; télen egy részük D-re/DK-re vonul tovább, majd a tél végén kezdődő visszavonulással, márciusi tavaszi tetőzéssel, április elejéig az utolsók is elhagyják a Kárpát-medencét. Szinte egész Európában, így hazánkban is vadászható faj – vadgazdálkodási értéke 10 000 Ft –, éves hazai terítéke mintegy 3 ezer példány.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Vetési lúd",
+    "nameInLatin": "Anser fabalis",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/vetesilud.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "footprint": "",
+    "description": "Az öregek melle szürke, a csőre fekete és narancssárga, lába narancssárga. Hangja mély – elsősorban húzás során hallható – „gaga-gaga” kiáltás. Eurázsia északi, tundrás részén fészkel, Magyarországon csak téli vendég. Átlagos fészekalja 4–6 tojás, a kotlás időtartama 26–29 nap. A kotlás során a gúnár őrzi a fészket. A költés május elejétől július közepéig tart. Telelőterületein előszeretettel keresi fel a mezőgazdasági kultúrákat, éjszakázó- és táplálkozóterületei között 60–80 km-es távolság is lehet. Magyarországon főként gabonamagvakat, elsősorban kukoricát, búzát, gyommagvakat, illetve zöld növényi részeket fogyaszt. Inkább a Dunántúlon jelenik meg nagyobb számban. Szeptember végén érkezik hozzánk, és legkésőbb áprilisban távozik hazánkból.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Tőkés réce",
+    "nameInLatin": "Anas platyrhynchos",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/tokesrece.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "footprint": "",
+    "description": "Nászruhás példányainál az ivarok tollazata eltérést mutat, de nyáron a gácsérok, a tojók és a fiatalok egyformán rozsdabarna színűek. A gácsér farkfedőtollai felfelé kunkorodnak. Csőre zöldessárga, lába narancssárga. Magyarországon gyakori költő faj, hazánk valamennyi vizes életterében előfordul. A tőkés récék a fészkelőhelyre már párban érkeznek, s március első felében kezdenek hozzá a fészkeléshez. Fészekalja 7–11 tojásból áll, a tojó a kotlást – amelynek időtartama mintegy 28 nap – csak a teljes fészekaljon kezdi meg. Mindenevők, ízeltlábúakat, zöld növényeket, termesztett és gyomnövény magvakat egyaránt fogyasztanak. Leggyakoribb fészkelő úszórécefajunk, amely mintegy 50 000 párban költ hazánkban. Hazánkban vadászati céllal évente mintegy 100 ezer tenyésztett récét bocsátanak ki.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Kis lilik",
+    "nameInLatin": "Anser erythropus",
+    "category": "Madarak",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/kislilik.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "footprint": "",
+    "description": "A nagy lilikre nagyon hasonlító, attól első sorban méretben tér el. Kisebb termetű, csőre rövid, szeme körül sárga gyűrű. Fehér homlokfoltja a fejtetőig ér. Lába narancssárga. Skandináv fészkelőhelyein állománya igen megfogyott, szintúgy az Észak-Oroszországban fészkelőké. Globálisan veszélyeztetett faj. Átvonuláson (IX–XI. és III–IV.) 200–400, utóbbi időben néhány tucatnyi jelenik meg hazánkban. Vonuláskor szinte mindig a nagy lilik csapatba vegyül el. Ritkán át is telel. A Tiszántúlon (Hortobágy, Biharugra, Kardoskút) vannak legfontosabb előfordulási helyei. Fokozottan védett.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nyári lúd",
+    "nameInLatin": "Anser anser",
+    "category": "Madarak",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/nyarilud.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "mme.hu",
+    "footprint": "",
+    "description": "A legnagyobb és egyben legvilágosabb vadlúdfajunk, a népnyelv „szőke libának” hívja, reptében világos szárnyairól messziről felismerhető. Erős, magas csőre rózsaszínű. Házi libánk őse. Közép-Európa minden országában fészkel. Magyarország egyetlen költő vadlúdfaja, a legfontosabb fészkelő helyei a Mezőföldön, a Kis-Balatonnál, a Balatonnál, a Fertő-tónál és a Kiskunságban vannak. A párba állás már a tél végén megtörténik. Átlagos fészekalj nagysága 5–6 tojás, amelyek 27–28 nap alatt kelnek ki. A fészekhagyó pelyhes kislibákat mindkét szülő vezeti és védi. Táplálékuk főként vízi, vízparti növényekből áll, de szívesen legelnek gyepeken, réteken. A nyárvégi csapatba verődés után már távolabbi helyekre is kihúznak, elsősorban gabonatarlókra. A korábban vonuló faj az enyhe teleknek köszönhetően egyre gyakrabban áttelel.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Vörösnyakú lúd",
+    "nameInLatin": "Branta ruficollis",
+    "category": "Madarak",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/vorosnyaku.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "europamadarai.hu",
+    "footprint": "",
+    "description": "Melle gesztenyevörös, oldalán széles fehér sáv. Fején jellegzetes mintázat. Hazánkban nem fészkel. Északi fészkelőhelyein erőteljesen csökkent az állománya. Globálisan veszélyeztetett faj. Egyes példányok vagy kisebb csapatok a X–IV. hónapokban a nagy lilikekkel együtt jelennek meg, első sorban az Alföldön. Hazánkban az átvonulók mennyiségének trendje, a költő helyen történő állománycsökkenés ellenére, folyamatosan növekszik, évente 40–90 pld. Fokozottan védett.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mezei nyúl",
+    "nameInLatin": "Lepus europaeus",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/mezeinyul.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "allathatarozo/mezeinyul_labnyom.jpg",
+    "description": "Az üregi nyúlnál nagyobb méretű őshonos faj. Testszíne barnásvörös, hátsó lába hosszabb az elsőnél, füle hosszú, vége fekete. Szinte egész Európában fellelhető. Magyarországon a nagy, összefüggő erdőtömbök belsejét kivéve – kisebb-nagyobb állománysűrűséggel – mindenütt előfordul, főként az Alföldön, a Kisalföldön és a Mezőföldön. A változatos mezőgazdasági területeket kedveli. Párzását bagzásnak nevezzük, évente többször 2-3 nyúlfit fial. Kettős vemhességét szuperfötációnak nevezzük. Utódai szőrösen, nyitott szemmel jönnek a világra. Tápláléka változatos. A fűféléktől a mezőgazdasági növényeken át a fásszárúak kérgéig sok mindent elfogyaszt. Legfontosabb táplálékkomponensei az egyszikű kultúrnövények (őszi búza, őszi árpa) és a gyomnövények, illetve a lucerna. Emésztési sajátossága a lágybélsár-evés, azaz cökotrófia.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Üregi nyúl",
+    "nameInLatin": "Oryctolagus cuniculus",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/ureginyul.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "allathatarozo/mezeinyul_labnyom.jpg",
+    "description": "Az utolsó jégkorszak után elterjedési területe az Ibériai-félszigetre és Északnyugat-Afrikára húzódott vissza, ezt követően betelepítés útján került Európa szinte valamennyi országába. Hazánkban nem őshonos kistestű faj. Elsősorban a laza homokos talajokhoz kötődik. Mivel földalatti kotorékban él, ezért csak a tartós vegetációval borított terület jöhet szóba élőhelyéül.  Súlya 1-2 kg. Feje kicsi, füle rövid. Alapszíne barna, barnásszürke. Párzását pepecselésnek nevezzük, évente 3-5 alkalommal fial, alkalmanként 4-5 utódot hoz a világra. Utódai fejletlenül földalatti fialó üregben jönnek világra.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Pézsmapocok",
+    "nameInLatin": "Ondatra zibethicus",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/pezsmapocok.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "allathatarozo/pezsmapocok_labnyom.jpg",
+    "description": "Észak-Amerikából betelepítéssel került kontinensünkre, mivel kiváló szőrmével rendelkezik. A patkánynál kicsit nagyobb méretű faj. Színe barnásszürke, farka csupasz, pikkelyes. Vízhez kötődik, a partoldalba fúrt üregének bejárata a víz alól nyílik, így a védőgátakban árvízkárt okozhat. Főleg vízinövényekkel táplálkozik. Évente 3-4 almot vet, alkalmanként 6-8 utódot hoz a világra.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Eurázsiai hód",
+    "nameInLatin": "Castor fiber",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/eurazsiaihod.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Testalkata tömzsi, szőrzete barna, tömött, erős fogai vörösek. Nagy, pikkelyes, szőrtelen, ellaposodó farka egyértelmű faji bélyeg. Testhossza 50–80 cm, a farok hossza 25–45 cm. Észak- és Kelet-Európában gyakori, Közép-Európában szórványos előfordulású. A vízparti puhafás erdőket kedveli. Nálunk kipusztult, visszatelepítése és visszatelepülése az 1980-as évek óta tart (Tisza-tó, Gemenc, Hanság, Szigetköz). A párzása tél végén történik (I–II.), évente 1 almot vet (IV–V.). A vemhességi idő 105–107 nap, az utódszám 2–4. Az utódok nyitott szemmel jönnek a világra, 2 hónapos korukig szopnak. Növényevő. Védett.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Vadmacska",
+    "nameInLatin": "Felis silvestris",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/vadmacska.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "allathatarozo/vadmacska_macska_labnyom.jpg",
+    "footprint": "",
+    "description": "A fej gömbölyded, a fülek rövidek, a szőrzet hosszú és tömött. A farka végig egyenletesen vastag és dús szőrzetű, 5–7 fekete gyűrűvel. Testtömege 5–12 kg. A vadmacska erdős területekhez kötődik. Állományai sajnos elszigetelődnek. A párzás február, márciusban történik. Vemhességi ideje 63–68 nap. Évente egyszer kölykezik, utódainak száma 3–4. Problémát okoz a házi macskával való keveredése, hibridizációja.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Közönséges hiúz",
+    "nameInLatin": "Lynx lynx",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/hiuz_labnyom.jpg",
+        "imgDesc": "téli bundában"
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Európa legnagyobb macskaféléje. Nyári bundája vörösesbarna, a téli szürkés árnyalatú, apró sötét foltokkal pettyezett. Pofaszakálla világos, füle háromszögletű, felálló, a végén pamaccsal. Farka rövid, a végén fekete. Testtömege 20–40 kg. Északkelet-Magyarország erdős területeire visszatelepült, de ritka ragadozó. A tél végi párzást követően 70 napos vemhesség után évente egyszer, április-májusban 2–4 utódot hoz a világra. A hiúz étlapján kisemlősök, dominálnak, nagyvadfajaink közül főleg az őzet és a muflont predálja. Fokozottan védett.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Őz",
+    "nameInLatin": "Capreolus capreolus",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/ozbak.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Hazánkban őshonos, legkisebb testű szarvasfélénk. A hímet baknak, a nőivart sutának a szaporulatot suta- vagy bakgidának nevezzük. Alapvető különbség az ivarok között, hogy a bak visel agancsot, a suta pedig nem. A szőrzet májustól októberig világos vörösesbarna, rövid, testhez simuló ún. nyári szőrzet. Októbertől májusig vastag, hosszú szálú, szürkésbarna téli szőrzetet visel. A bak ősz második felében elveti az agancsát, ezt követően újat kezd építeni, melyet áprilisra igyekszik letisztítani. Hangjai közül legismertebb ugatásszerű riasztása. A párzását üzekedésnek nevezzük, melynek ideje július vége augusztus eleje. A gidák 9-10 hónap vemhesség után születnek, de a fajra jellemző a magzatnyugalmi állapot (augusztus-december). A fajra jellemző az ikerellés. Az őz növényevő kérődző, de kifejezetten válogató táplálkozást folytat, úgymond pákosztos: előtérbe helyezi az alacsony rosttartalmú, fehérjében gazdag táplálékot. Az egyetlen nagyvadfaj, amelyik minden hazai vadászterületen előfordul.",
+    "huntingSeasons": [
+      {
+        "name": "Őz bak",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      },
+      {
+        "name": "Őz suta",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Szikaszarvas",
+    "nameInLatin": "Cervus nippon",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/szikaszarvas.png",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Főként a Japán szigetvilágban honos, de Ázsia más részein is megtalálható. Hazánkba két alfaja, a japán szika (1910-ben) és a Dybowski szika (1975-ben) került betelepítésre. Jelenleg csak vadaskertekben él néhány tucatnyi példány belőle. Mérete hasonló a dámhoz, de attól zömökebbnek ható a teste. Fiatalabb korban hasonlóan pettyezett, de a has soha nem olyan világos, mint a dámé. Agancsa 6-os vagy 8-as villás, koronát soha nem rak fel. Bőgése október-novemberben van. Bőgőhangja hosszú madárfüttyre emlékeztet, vége mindig rekedt röfögés. Május-júniusban ellik egy, ritkán két borjút. Tápláléka hasonló a gímszarvaséhoz, bár több kétszikű lágyszárút és kevesebb lombtakarmányt eszik. Tenyésztésének vadászattörténeti jelentősége van.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Vaddisznó",
+    "nameInLatin": "Sus scrofa",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/vaddiszno.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Eurázsiában a 60. szélességi foktól délre minden számára alkalmas élőhelyen megtalálható. Betelepítették Észak-Afrikába és Amerikába is. Hazánk egyik legfontosabb nagyvadfaja, állománya stabil, növekvő. Élőhelye elsősorban az erdők, mocsarak, de a nagytáblás mezőgazdaság is kedvező számára. Mindenevő, növényi táplálék túlsúllyal. Túrásával és táplálkozásával jelentős kárt okozhat a gyepekben és termesztett növényekben, erdőfelújításokban. A territóriumon belül vezérkocák vezetik a kocákból, süldőkből és malacokból álló kondákat. A kanok csak a téli szaporodási (búgás) időszakban csatlakoznak hozzájuk. A koca kora február-márciusban fialja meg vackában a 4-6 malacot. A kanok agyara értékes trófea, melyből világrekord is került ki hazánkból. ",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Muflon",
+    "nameInLatin": "Ovis aries musimon",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/muflon.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Őshazája Törökország keleti régiója és a környező országok, ahonnan emberi közreműködéssel került a Földközi-tenger szigeteire. Innen telepítették be 1868-ban a felvidéki Ghymesre, majd onnan 1901-ben Füzérradványba. A középhegységeket kedvelő juhféle, mely jól érzi magát a dombos, sőt sík területeken is. Hazánk középhegységeiben szigetszerűen mindenhol megtalálható. Elsődleges táplálékai a fűfélék. Patájával és legelésével komoly kárt okozhat a védett sziklagyepekben. Berregése november-december hónapokra esik. Ekkor csatlakoznak a külön élő kosok az anyajuhokból és jerkékből álló nyájakhoz. A bárányok március-május hónapokban jönnek a világra. A kosok szaruból képződő szarva 6-7 éves korukig nő intenzíven, utána a kopás és a növekedés hasonló ütemű.",
+    "huntingSeasons": [
+      {
+        "name": "Muflon kos",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      },
+      {
+        "name": "Muflon juh, jerke",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      },
+      {
+        "name": "Muflon bárány",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Gímszarvas",
+    "nameInLatin": "Cervus elaphus",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/gimszarvas.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Hazánk őshonos, emblematikus nagyvad faja. A mérsékelt égövben, az erdősült területeken terjedt el. Igényli a dús aljnövényzetet és a dagonyázás lehetőségét. Főként hajtásokat, lombot fogyaszt, de legelése is számottevő. A mezőgazdaságban táplálkozásával jelentős kárt okozhat. Kiváló állománya él a Dunántúlon, de a középhegységi állomány is jó minőségű, sőt újabban a síkvidéki erdők állománya is erősödik. A gemenci erdő szarvasai világhírűek. A bőgésre szeptemberben kerül sor. Ekkor csatlakoznak a bikák a tarvad rudlikhoz. A többnyire egy borjút május-júniusban ellik a tehenek. Testtömege akár 2,5-3 mázsát is elérheti, ennek megfelelően az agancsa akár 10-12 kg-t is nyomhat. A koronában végződő száron 4-5 ág lehet. Gímszarvas állományunk világhírű, számos világrekord trófeát adott már.",
+    "huntingSeasons": [
+      {
+        "name": "Gímszarvas bika",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      },
+      {
+        "name": "Gímszarvas érett bika",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      },
+      {
+        "name": "Gímszarvas tehén, ünő",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      },
+      {
+        "name": "Gímszarvas borjú",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Dámszarvas",
+    "nameInLatin": "Dama dama",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/damszarvas.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Őshazája Kis-Ázsia és Mezopotámia. Magyarországra valószínűleg Mátyás király korában telepítették be. Kedveli a ligetes, többféle növényzettel tagolt sík és dombvidéki tájat. 1970-től kezdve több akcióban 81 helyre került betelepítésre hazánkban. A gímtől kisebb, szemre is szép küllemű vad. Táplálékában válogatósabb a gímnél, de kevésbé igényes, mint az őz. Kifejezetten hű az otthonához, azt csak túlszaporodás vagy erős zavarás miatt változtatja meg. Barcogása október-november hónapokban zajlik. Ekkor a tehenek keresik fel a barcogó teknőjükben a bikákat, borjaikat május-júniusban hozzák világra. Hazánk dámállománya kiváló, számos világrekorddal büszkélkedhetünk. Gúth, Gyula, Gyulaj fogalommá vált a dám révén. Napjainkban nem ritka a 6 kg meghaladó trófea tömeg sem.",
+    "huntingSeasons": [
+      {
+        "name": "Dámszarvas bika",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      },
+      {
+        "name": "Dámszarvas érett bika",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 0
+        }
+      },
+      {
+        "name": "Dámszarvas tehén, ünő",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      },
+      {
+        "name": "Dámszarvas borjú",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Fácán",
+    "nameInLatin": "Phasianus colchicus",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/facankakas.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Eredete Kis-Ázsiába tehető, de már a rómaiak betelepítették Európába, így vélhetően hazánkba is. Számos alfaja ismert, melyek színezetben, testméretben és repülési készségben térnek el egymástól. Optimális számára a facsoportokkal tagolt, vízzel jól ellátott mezei élőhely, de még a hegységekben is megtalálja az élhető részeket. A márciusra elfoglalt territóriumban dürrög a kakas. Itt csatlakoznak hozzá a tyúkok és kialakul az akár 5-8 tyúkból álló hárem. A 10-14 kisfácán június-júliusban kel ki. Kezdetben rovarokat esznek, melyet fokozatosan magvak váltanak fel. Hazánk fácán állománya az élőhely folyamatos romlása miatt csökken, de így is legjelentősebb apróvadunk. A hiányt tenyésztéssel igyekeznek pótolni. A tenyésztett madár életre valósága azonban lényegesen gyengébb a vad társainál, így az életben maradás esélyei rosszak. ",
+    "huntingSeasons": [
+      {
+        "name": "Fácán kakas",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      },
+      {
+        "name": "Fácán tyúk",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Fogoly",
+    "nameInLatin": "Perdix perdix",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/fogoly.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Hazánkban őshonos apróvad. Eredetileg a mezei élőhelyen élt, de a kis táblás, extenzív mezőgazdasági művelés is igen kedvező volt számára. A változatos élőhely, a takarás megléte és a gazdag rovar fauna létkérdés a csibék felnevelése szempontjából. Családi kötelékben élnek, mely tél végén (február-március) bomlik fel. Ekkor a tyúk egy másik családból választ párt magának. Az új pár territóriumot foglal és ott kezd bele a fészekrakásba. Monogám madár, párjához és területéhez hűséges. 14-16 tojása júliusra kel ki. Hazánk világhírű fogoly állománya az 1940-es évek két rendkívül kemény telén összeomlott. Az állomány újbóli felszaporodásának a nagytáblás mezőgazdaság és az intenzív vegyszerhasználat vetett véget. Jelenleg csak a tenyésztésből kihelyezett fogoly vadászható.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Kanadai lúd",
+    "nameInLatin": "Branta canadensis",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/kanadailud.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Az észak-amerikai elterjedésű, az USA és Kanada határán, a Nagy tavak környékén őshonos fajt Európába több országba is (Anglia, Svédország, Norvégia) betelepítették. Ezt követően részben ezekből a populációkból, részben vadasparkokból kiszabadult példányokból terjed szerte Európában, így téli és tavaszi időszakban (XI-III.) igen ritka, alkalmi vendég lehet Magyarországon is. Hazánkban még nem fészkel. Fészkelőként való megtelepedése, mint nem őshonos, invazív módon viselkedő fajnak, nem kívánatos. Elsősorban a nagyobb vizes élőhelyeket kedveli. Párkapcsolata monogám. Hazai elejtésekor – fénykép bemutatásával együtt – haladéktalanul tájékoztatni kell a Soproni Egyetem Vadgazdálkodási és Vadbiológiai Intézetét.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nílusi lúd",
+    "nameInLatin": "Alopochen aegyptiaca ",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/nilusilud.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Afrikai, különösen Kelet- és Dél-Afrikai elterjedésű. Az ókori Egyiptomban kezdték el a háziasítását, díszmadárként is tartották. Európában Belgiumba, Hollandiába és az Egyesült Királyságba telepítették be. Az 1970-es években Hollandiából kezdett el terjedni, s mára az Alpok előteréig jutott. Magyarországon korábban csak kis számban észlelték ősztől tavaszig (VIII-IV). 2016-ban és 2017-ben azonban már fészkelt 1-1 pár a Vas megyei Zsennyén. Fészkelőként való megtelepedése, mint nem őshonos, invazív módon viselkedő fajnak, nem kívánatos. A költési időszak során igen agresszív madarak, territóriumukból minden récefélét elűznek. Hazai elejtésekor – fénykép bemutatásával együtt – haladéktalanul tájékoztatni kell a Soproni Egyetem Vadgazdálkodási és Vadbiológiai Intézetét.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Szárcsa",
+    "nameInLatin": "Fulica atra",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/szarcsa.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "A felnőttek messziről egyöntetűen feketének látszanak. A csőr és a homlokpajzs fehér, a szem piros, a csüd sárgászöld, a lábujjak zöldek, rajtuk karéjos úszóhártyával. Ha megzavarják, hosszan fut a víz felszínén, csak nehézkesen száll fel, s ha közben fedezéket talál, fel sem rebben. Eurázsiai elterjedésű faj. Magyarország mindenfajta vizes élőhelyén előfordul. Április közepén kezdődik a fészeképítés a parti növényzetben gazdag vízállások mentén, főként olyan tavaknál, amelyek gazdag víz alatti vegetációval rendelkeznek. Döntően növényevő, legfontosabb táplálékát a zöld növényi részek jelentik, ezt követik a gyommagvak és a termesztett növények magvai. Az állati eredetű táplálékrész főként rovarokból és rovarlárvákból áll. ",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Erdei szalonka",
+    "nameInLatin": "Scolopax rusticola",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/erdeiszalonka.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Vadászható, vadászati idény nélkül. Tavaszi húzáskor pisszegő és korrogó hangja jellegzetes. Nyugat-Európától, a Brit-szigetektől Japánig költ. Magyarországon alkalmi fészkelő. A lombos vagy elegyes erdőket kedveli, északi vagy hegyvidéki fészkelőhelyein már a fenyvesekben is megtelepszik. Pár nélküli ivari kapcsolat jellemzi. A nász már a vonulás során megindul, a párzás is útközben játszódik le. A nászrepülés – a híres alkonyati/hajnali szalonkahúzás – célja az, hogy a kakasok és a tyúkok egymásra találjanak. Ilyenkor leginkább a kakasok mozognak, pisszegve-korrogva keresik a tojókat. A tojók keveset repülnek, a földön ülve hívják a kakasokat. Fészkét fa tövébe, cserjék alá, sűrű növényzetbe rakja, mindig olyan helyre, ahol sok a lehullott, száraz falevél. Az erdei szalonkának természetes az évi kétszeri költése, fészekalja szinte mindig 4 tojásból áll. Csak a tojó ül a tojásokon, 21–24 napos kotlás után a fiókák egyszerre kelnek és hagyják el a fészket. A szalonka csőralakulása sajátos táplálékszerzési módot tesz lehetővé. A csipeszként működő csőr a talaj felső rétegeiben kutat, s az érzékeny idegvégződések lehetővé teszik a táplálékforrás felismerését. Fő tápláléka földigiliszta, rovarlárvák, bábok, ikerszelvényesek, százlábúak, csigák. Jelenleg különleges, egyedi engedéllyel monitoring program keretében csak tavasszal vadászható.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Örvös galamb",
+    "nameInLatin": "Columba palumbus",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/orvosgalamb.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "A nyakoldalon fehéres folt, „örv” található, innen kapta a nevét. Fehér szárnysávja és nagy mérete miatt könnyen megkülönböztethető. Skandinávia és Oroszország északi részét kivéve egész Európában előfordul, Magyarországon mindenütt elterjedt, ahol fás vegetáció található. Táplálkozni szívesen kijár a mezőgazdasági területekre, vonulása során pedig kifejezetten előnyben részesíti őket. Április és augusztus között fészkel. A fészket cserjékre és fákra építi. A fészek gallyakból lazán összerakott építmény. Évente 2-3 alkalommal költ, szinte kizárólag 2 tojást rak, a kotlás 15–17 napig tart, a szülők felváltva kotlanak. Különféle magvakat, bogyókat és rügyeket fogyaszt. Nem veszélyeztetett, Európában gyakori fészkelő faj, magyar fészkelő állományának nagysága 77–110 ezer pár. Vonuló madár. A magyar költő állomány október végén, november elején vonul el a Földközi-tenger középső és nyugati vidékein található telelőterületeire. Enyhe időjárásnál olykor áttelelhet. ",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Balkáni gerle",
+    "nameInLatin": "Streptopelia decaocto",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/balkanigerle.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "A felsőtest szürkés homokszínű, az alsótest rózsaszínes árnyalatú szürke, a torok és az áll olykor fehér. A szárnyak szürkék, az elsőrendű evezők feketék. Nyakán oldalt és hátul összefüggő, fehérrel szegett fekete örv található. Lába vörös, csőre fekete. Eredetileg Ázsiában volt honos, a XX. században kezdett el terjedni, mára egész Európában előfordul. A balkáni gerle kultúrakövető faj. Egyes populációi kimondottan emberi településekre, illetve azok köré létesülnek. Gyakorlatilag egész évben költhet, fészkét főként fákra építi, 4-5 fészekaljat is felnevel, mely rendszerint 2 fiókából áll. Mindkét szülő kotlik, aminek tartama 14–16 nap. A fiókákat mindkét szülő eteti, azok gyorsan fejlődnek, a 3. héten elhagyják a fészket. Fogyasztott tápláléka sokféle, de a termesztett növények magjainak aránya abszolút domináns. Európai állományának nagysága meghaladhatja a 10 millió párt. Magyarország fészkelő állománya 160-220 ezer pár. A balkáni gerle állandó madár, legfeljebb kisebb téli vándorlása figyelhető meg.  ",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Vörös róka",
+    "nameInLatin": "Vulpes vulpes",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/vorosroka.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Hímjét kannak, nőstényét szukának hívjuk. Testén a vöröses színezetű szőr dominál, a háton sötétebb sáv húzódik végig. A has szőrzete világosabb, szürkésfehér vagy fehéres árnyalatú. A farok vége vagy fehéres, vagy kifejezetten fehér, a lábak külső fele és a fülek hátoldala fekete. Olykor a test egész felületén megjelennek sötétszürkés, feketés szőrök (pofa, torok, has, farok, lábak), ilyenkor beszél a vadásznyelv szenes rókáról. Nem válogatós, ún. generalista faj. Egyszer ivarzó faj, ezt az időszakot koslatásnak mondjuk, amely Magyarországon január–február hónapokban tart. A vemhesség ideje 52-53 nap. A róka a kölykezés, illetve a fiatalok nevelése céljából kotorékot foglal. A szuka 5–7 rókafit kölykezik, de feljegyeztek 12–15-ös almot is. A kölykök fogatlanul, csukott szemmel és füllel jönnek a világra. Szemük csak a 14–16. napon nyílik ki. Születésük után 2-3 hétig csak szopnak, ezután fokozatosan a szilárd táplálékra térnek át. Tápláléka főleg apró rágcsálókból áll, de eszik rovart, férget, halat, ősszel sok gyümölcsöt. Elfogyasztja a dögöt is. Fácánt, foglyot, nyulat is zsákmányol. Lakott területeken megdézsmálja a baromfiállományt , de a szeméttelepeket is szívesen felkeresi. A veszettség kórokozójának legfontosabb terjesztője, ezért kötelező gyérítését is előírják a jogszabályok. Ugyanezen okból kezdődött 1993-ban az ún. immunizációs program Magyarországon, amelynek során veszettség elleni vakcinával preparált falatok alkalmazásával teszik a rókákat a veszettség ellen immúnissá.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Aranysakál",
+    "nameInLatin": "Canis aureus",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/aranysakal.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Háta szürkésfekete, testoldala, combjai vörösek. Hasa és torka szürkésfehér, farka színe a hátéval egyezik meg. Farka hossza a testéhez viszonyítva rövid, a farokvég nem vékonyodik el. Lába hosszú. Feje keskeny, orra hegyes, füle hosszú, szeme ferde vágású. Mind a mellső, mind a hátsó lábán a két középső (azaz a 3. és 4.) ujj talppárnája a hátulsó részen keskeny sávban összenőtt. A kan testmérete általában nagyobb a szukáénál. Európában csak a Balkánon közönséges, de nyugati irányban terjeszkedő faj. Magyarországra az 1990-es években, délről települt vissza, s ma már az egész országban elterjedt. Népies nevei a nádi farkas, toportyán. Mivel éjszaka aktív állat, a nap jelentős részét takarásban tölti. Általában magányosan vagy párban, naplementekor indul vadászni. Ekkor hallható a sakálfalka elnyújtott, hullámzó üvöltése. A szukák 9 hónapos, a kanok csak 2. éves korukban válnak ivaréretté. A sakáloknál a párválasztás az esetek többségében egy életre szól. A koslatás időszaka február–március hónapokra esik. A vemhességi idő 60–62 nap. A nőstény a kölyköket a kan által ásott vagy rókától, illetve borztól átvett/elvett kotorékban – április végén, május elején – hozza a világra. Az átlagos alomnagyság 4-5 kölyök. A kölykök szőrösen, de csukott szemmel jönnek a világra. Szemük a 10. nap táján nyílik ki. A kicsinyeket a nőstény mintegy 2 hónapos korukig szoptatja, csak ezt követően hagyják el a kotorékot. Az utódok nevelésében/etetésében mindkét szülő részt vesz. Az aranysakál mindent elfogyaszt, de inkább húsevőnek tekintendő.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nyest",
+    "nameInLatin": "Martes foina",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/nyest.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "A nyest bundájának alapszíne szürkésbarna, fedőszőrei nem alkotnak tömött szőrzetet. Torokfoltja rendszerint fehér, villásan elágazó, és a mellső lábak belső felére is lehúzódik. Szutyakja világos hússzínű, erőteljes bajuszszőrökkel. A fej rövid és lekerekített, széles, a fülkagylók távol állnak egymástól. Első és hátsó lábán is 5 ujj van. A talp- és ujjpárnák csupaszok, így a nyoma alkalmas aljzaton jól kirajzolódik. Magyarországon általánosan elterjedt. Az eredendően erdei életmódú nyest ősi életterét is fenntartva, részben emberi települések környékére, sőt a településekre is beköltözött, azaz kultúrakövetővé vált. Alapvetően magányosan élő ragadozó, csak nyár végén, a nász idején jár párban. Pacsmagolása június közepén kezdődik és augusztus közepéig tart, ezen időszakon belül a csúcsidőszak július második felében van. Az elnyújtott vemhesség első időszakára diapauza jellemző, így a vemhesség időtartama 247–289 nap. Évente egyszer fial, az alomnagyság 3–5 kölyök. A kölykök április-május jönnek a világra. A nyestkölykök vakon jönnek a világra, a hím nem vesz részt a fiatalok nevelésében. A nőstény 8–10 hetes korig szoptatja a kölyköket. 6-7 hetes korukban már megkezdi a húsetetést. A nyest mindenevő állat, csaknem mindenféle növényi és állati eredetű táplálékot elfogyaszt. Kedveli a tojásokat és a cukortartalmú gyümölcsöket, de az alacsonyabb rendű állatokat, valamint kétéltűeket, hüllőket, madarakat és kisemlősöket is elkapja. ",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nyestkutya",
+    "nameInLatin": "Nyctereutes procyonoides",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/nyestkutya.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Hasonlít a mosómedvéhez, mivel pofáján szintén fekete álarc húzódik, ám azzal szemben a nyest-kutyának busa feje, erős pofaszakálla és gyűrűzetlen farka van. Eredeti elterjedési területe a Távol-Kelet, Japántól Észak-Vietnamig. Európába betelepítették az egykori Szovjetunió európai területeire. Innen terjedt el egész Európában. Magyarországra keletről spontán betelepülő, nem őshonos faj, az első példányt 1961-ben lőtték. Az ivarérettség 8–10 hónapos korban következik be. Monogám állat, a párok ősszel alakulnak ki, a párkapcsolat egy életre szól. A párzás időszaka február végétől április elejéig tart. A vemhesség 60–62 napig tart. A kölykök rendszerint kotorékban, ritkábban kidőlt fák gyökerei között vagy odúban, olykor rőzserakatokban, azaz a földfelszín fölött jönnek a világra. Évente egyszer ellik, amelynek során a nőstény 6-7 – ritkábban kétszer ennyi – kölyöknek is életet adhat. A kölykök vakon jönnek a világra, testüket vastag, puha, sötétszürke szőr borítja. A szemüket 9-10 napos korban nyitják ki. A felnőttkori testtömeget a 6. hónapban érik el. Szívesen fogyaszt egereket, békákat, földön fészkelő madarak tojásait, fiókáit, szereti a halat, a rákokat, a piócákat, a különféle rovarokat. A nyestkutya az egyetlen, igazi téli álmot alvó kutyaféle. Elszaporodása – táplálkozási szokásai miatt – sem vadgazdálkodási, sem természetvédelmi érdekből nem támogatandó. Fenti okokból nálunk egész évben vadászható, éves hazai terítéke néhány példány.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Mosómedve",
+    "nameInLatin": "Procyon lotor",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/mosomedve.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Faji bélyege a világos pofán, a szemek vonalában húzódó fekete sáv, álarc és a feketén gyűrűzött farok. Füle kicsi, lába rövid, rajta hosszú, fogásra alkalmas ujjakkal. Amerikából származik, Európába betelepítették, az első szabadterületi példányok kiszabadult példányok voltak. Élőhelye a folyó- és állóvizek környéke, jól úszik és mászik fára. Testtömege 6-7 kg. Párzási ideje február-március, a vemhessége 63 nap, évente egyszer ellik A nőstény föld alatti kotorékban hozza világra 3-5 kölykét, a kölykök felnevelése a nőstény feladata. Mindenevő, víziállatok, csigák, kagylók, rovarok, madárfiókák, gyümölcsök a fő táplálékai. Két mellső lábával majszolja őket, ez úgy tűnik, mintha mosná azokat, innen kapta nevét. Magyarországon alkalmi előfordulási ismertek, állománya azonban növekszik. A madarak fiókáiban történő kártétele miatt, megtelepülése nem kívánatos. Egész éves vadászidény van rá.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Eurázsiai borz",
+    "nameInLatin": "Meles meles",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/euraazsiaiborz.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Feje és nyaka fehér, a szem és a fülén húzódó két fekete sávval, testének többi része barnásszürke, borzderes. A feje vékony és hegyes, a lábai rövidek, a szeme, füle kicsi. Testtömege elérheti a 15-20 kg-ot. Európa nagy részén elterjedt. Hazánkban főleg az erdős területeken él, de a bokros, erdősávokkal, erdőfoltokkal tarkított kisparcellás mezei területeket is kedveli. Kotorékot készít, a párzás fő időszaka április végétől júniusig tart, vemhessége elnyújtott, 11-12 hónapig tart. A nőstény február–március között hozza a világra 2-5 kölykét, vakon jönnek a világra. Évente vagy kétévente egyszer ellik. Mindenevő, tojásfogyasztása miatt nagy károkat okozhat, ezért elszaporodása nem kívánatos. Éjjel aktív. Vadászható.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Közönséges görény",
+    "nameInLatin": "Mustela putorius",
+    "category": "Emlősök",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/goreny.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Házi görényként is ismert. Bundája barnásfekete, oldala világosabb, orra és szemsávjai, ill. pofájának egy része sárgásfehér, fülének pereme is hasonlóan szegett, amely rövid, lekerekített. Teste kétszer olyan hosszú, mint a farka. Csaknem egész Európában elterjedt, Magyarországon mindenhol előfordul, de gyakoribbnak inkább az alföldi jellegű területeken mondható. Leggyakrabban az erdős területek határán, illetve a vizes élőhelyek cserjeszintben gazdag parti övezetében található meg. Télen szívesen húzódik lakóterületek közelébe, ilyenkor farakások, építmények, esetleg romos épületek táján ver tanyát. A párzás február végén vagy márciusban kezdődik. A nőstény 40-41 napos vemhesség után hozza világra 3–7 kicsinyét, vakon jönnek világra, szemük 30–35 napos korukban nyílik ki. Táplálékának zömét rágcsálók (egerek, pockok, ürge, hörcsög, patkány), békák és halak, ízeltlábúak, gyümölcsök teszik ki. Jelentős lehet a mezei és üreginyúl, a földön fészkelő madarak és azok fészekaljainak zsákmányolása is. Vadászható.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Dolmányos varjú",
+    "nameInLatin": "Corvus cornix",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/dolmanyosvarju.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Feje, csőre, torka, begye, szárnya és a farka fekete, a testalja, az alsó farkfedők és a szárnyfedők szürkék. Hossza 44–52 centiméter, testtömege pedig 540–600 gramm. Európai elterjedésű faj. Mindenütt előfordul hazánkban. Kedveli a fasorokkal, tarkított mezőgazdasági tájat, liget- és galériaerdőket. Monogámok, tartós párkapcsolattal. Május elejéig tart a tojások lerakása, a fészekalj 4-5 tojásból áll, a fiókák 18-20 nap után kelnek ki. A fiatalok 4-5 hetes korban hagyják el a fészket. Táplálékában a növényi magvak, termések mellett tavasszal főleg állati eredetűek a meghatározóak, madárfészkek tojásragadozása és kisnyúl pusztítása jelentős mértékű, amely miatt cél az alacsony szinten tartása. Vadászható.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Szarka",
+    "nameInLatin": "Pica pica",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/szarka.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Feje, begye, háta, szárnya és az alsó farkfedői feketék, válla és hasa fehér, csőre és lába is fekete. Testhossza 40-45 cm, farokhossza 20-22 cm, tömege 200-250 gramm. Európában és hazánkban szinte mindenütt előfordul. Élőhelyét tekintve a nyílt vidékeket kedveli. Költése május közepéig tart, a fészeknek általában teteje, 1 vagy 2 bejárata van. A fészekalj nagysága 6-7 tojás, a fiókák 17-18 nap után kelnek ki. Táplálékában a növényi magvak, termések mellett tavasszal főleg állati eredetűek a meghatározóak, madárfészkek tojásragadozása és apróvadfajaink szaporulatának ragadozása jelentős mértékű, amely miatt cél, az alacsony szinten tartása. Vadászható. ",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Szajkó",
+    "nameInLatin": "Garrulus glandarius",
+    "category": "Madarak",
+    "huntable": true,
+    "picture": [
+      {
+        "img": "allathatarozo/szajko.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Népies neve mátyásmadár. Testtollai rozsdásszürke színűek, a homlok és a fejtető finoman feketén vonalkázott. A csőr tövéből mindkét oldalon fekete barkó húzódik. Fehér szárnyfoltja, repülés közben szárnycsíkja és fekete sávozású kék szárnyfedői messziről felismerhetővé teszik. Eurázsiai elterjedésű faj, hazánkban mindenütt, de főleg erdős területeken fordul elő. Tojásrakás május végéig tart, a fészek bokron, fán van. Fészekalja 5-6 tojás, a kotlás 16-17 napig tart. Mindenevő, főleg rovarok, de pocok, madártojások, fiókák, télen tölgymakk és növények magjait eszi. Fészekrablása közismert, tavasszal táplálékát elsősorban énekesmadár fajok tojásai és fiókái teszik ki, amely miatt nemcsak vadgazdálkodási, hanem természetvédelmi cél is, az alacsony szinten tartása. Vadászható.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 3,
+          "2": 3,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 3,
+          "8": 3,
+          "9": 3,
+          "10": 3,
+          "11": 3,
+          "12": 3
+        }
+      }
+    ]
+  },
+  {
+    "name": "Szürke farkas",
+    "nameInLatin": "(Canis lupus)",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/szurkefarkas.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "A kutyafélék családjába tartozó ragadozó faj, a ma ismert házi kutya őse. Nyaka vastag, feje széles, füle elálló, farka mindig lógó, hosszú szőrű. Mellső lábain 5, a hátsókon 4 ujj van. Testtömege 35–50 kg (kan), 30–40 kg (szuka). Eurázsiában és Észak-Amerikában 16 alfaja él. Észak- Kelet Magyarországon jelenléte folyamatos, délen alkalmi. A párzás tél végén történik, vemhességi idő 60–70 nap. 3-5 kölyköt fial, a kölykök vakon születnek, 10. napon nyílik ki a szemük. 6–8 hetes korukig szopnak, 3 évesen teljesen kifejlettek. Társas állat, mely szorosan összetartó farkasfalkákban él. Táplálékának nagy részét a hús, a csont, a rágcsálók teszik ki, de növényeket is eszik. Izomzata, tüdeje és szíve kiválóan alkalmazkodott a zsákmány üldözéséhez, falkában vadásznak, vadfajokat, háziállatokat fogyaszt. Fokozottan védett. ",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Barna medve",
+    "nameInLatin": "Ursus arctos)",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/barnamedve.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "A barna medve a legnagyobb termetű emlős fajunk. Teste zömök, feje nagy, füle kicsi, lekerekített. Mellső és hátsó lábán 5-5 ujj van, különösen a mellső lábakon erős karmokkal. Testtömege 100–340 kg. Hazánkhoz legközelebb a Kárpátokban, Szlovákiában és Szlovéniában, Horvátországban és Romániában vannak stabil állományai. Hazánkban egyre több észak-magyarországi megfigyelése ismert. Élőhelyének nagysága néhány ezer hektártól akár több ezer négyzetkilométerig is terjed, alapvetően magányos állat, territoriális magatartást mutat. A párzás nyár elejére esik (IV-VI.), a vemhességi idő 8-9 hónap, benne 1-2 hónapos diapauzával. Évente egyszer ellik (XII–II.), a bocsok száma 2-3 (ritkán 4), csupaszon és vakon születnek, 5 hónapig csak anyatejen élnek. A fiatalok legtöbbször 3–4 évig anyjukkal maradnak, 4-6 évesen válnak ivaréretté. Mindenevő, táplálékának mintegy hetven százaléka növényi eredetű. Egyaránt kedveli az erdei gyümölcsöket, terméseket, fűféléket, gyökereket, a rovarokat, kis- és a nagyobb termetű emlősöket is, de a dögöt sem veti meg.  Téli nyugalmi időszakára jellemző, hogy nem alszik valódi téli álmot, gyakran felébred.  Fokozottan védett.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Hermelin",
+    "nameInLatin": "(Mustela erminea)",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/hermelin.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Karcsú testű, nyúlánk, farka viszonylag hosszú, a vége mindig fekete. Nyáron háta barna, hasa fehér, havas teleken az egész testszőrzete fehér. Testtömege mintegy 140–440 gramm. Dél-Európa kivételével Európában mindenütt honos. Félénk, kerüli a településeket. Általában a nedves élőhelyeket kedveli. Leginkább a nyílt területek, így a mezők, rétek, folyó- és tópartok lakója, a zárt erdőket kerüli. Sziklahasadékokban, falrepedésekben, kőrakások alatt, fák odvában, lakatlan épületekben és sok más efféle búvóhelyen üti fel tanyáját. A párzása nyárra esik (VI–VIII.), elnyújtott vemhesség jellemzi. Évente egyszer (III–IV.) kölykezik, 6-7 kölyköt hoz a világra. A kölykök vakon születnek, 3-4 hónaposan már önállóak. Gyors, jellegzetesen elnyújtott ugrásokkal szalad, közben felágaskodik és figyel. Kizárólag ragadozó életmódot folytat, azaz elsősorban kisebb rágcsálókat, madarakat fogyaszt, jobb híján a rovarokra, lárvákra, vagy akár a dögevésre is ráfanyalodhat. Védett.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Molnárgörény",
+    "nameInLatin": "(Mustela eversmanni)",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/molnargoreny.jpg",
+        "imgDesc": "forras: wikipedia"
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Egy kis termetű ragadozó, teste nyújtott, lábai rövidek, 30–45 cm hosszú, súlya 600-1000 g körüli. Teste szalmasárga színű, melle és lába fekete, hasa és farka világos, a farokvég barnás fekete, szemfoltja sötét. Kelet-Európában sokfelé előfordul, hazánkban jelentősebb állományai találhatók az Alföldön, elterjedésének nyugati határa a Dunántúl térsége. Embert kerülő ragadozó, nyílt füves területek, gyepeken, lucernásokban él, nagyobb szántók tipikus lakója. Nászidőszaka márciustól augusztusig terjedő időszakra esik, vemhességi ideje 40-43 nap, általában 4-10 kölyök születik. Agresszív viselkedésű, vérmérséklete heves. Főként éjszaka jár zsákmány után, melyeket elsősorban a talajszinten kap el. Táplálékának jelentős részét kisemlősök alkotják, de rágcsálókat, földön fészkelő madarakat, sőt nyúlfikat is elkap. Védett.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Eurázsiai menyét",
+    "nameInLatin": "(Mustela nivalis)",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/eurazsiaimenyet.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Füves puszták jellemző ragadozója, de gyakran előfordul bozótosokkal, erdőfoltokkal tarkított füves területeken, lucerna táblákban is, továbbá erdei tisztásokon, sziklás hegyoldalakon és patakpartokon. Hazánkban gyakorlatilag minden tájegységünkön megtalálható, és egyre többször figyelhető meg lakott területeken is. Felsőteste barna, alsóteste fehér, és bundájának ez a színezete hazánkban megmarad télire is. Farka rövid, egyszínű barna, bojt nélküli. Testtömege 45–170 gramm közötti. A párzás tél végére esik (II–III.), de lehetséges, hogy egész éven át ivarképes. A vemhességi idő 5-6 hét, évente egyszer kölykezik, de előfordulhat kétszer bő táplálékkínálat mellett. Kölyökszám almonként 6–8, a kölykök csupaszon és vakon születnek, 6–8 hétig szopnak. Alapvetően kíváncsi, bátor állat. Zsákmányszerző útjain rövid, 12-30 centiméteres ugrásokkal halad, közben időnként felegyenesedve figyel. Táplálékát kisemlősök, békák, gyíkok, rovarok teszik ki, olykor tojást is fogyaszt. A tyúkólakban egyetlen éjszaka alatt akár tucatnyi baromfival is végezhet, amelyeknek aztán csak a kifolyt vérét fogyasztja el. Védett. ",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Nyuszt",
+    "nameInLatin": "(Martes martes)",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/nyuszt.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Bundája gesztenyebarna, lekerekített sárga torokfoltot visel - ez különbözteti meg a nyesttől, amelynél ez fehér színű -, pofája sötétszürke, talppárnái a hosszú szőrszálak között alig látszanak. Mellfoltja a has felé pöttyökre eshet szét, de sohasem ágazik el villásan, mint a nyestnél. Testhossza 43–51 cm, farokhossza 20–26 cm, bozontos. Mellső és hátsó lábán 5-5 ujj van. Testtömege 1,1–1,5 kg, a hím nagyobb. Az összes erdőtípusban megtalálható Nyugat-Európától Szibériáig. A nagyobb parkokban is előfordul. A párzás nyár végére esik (VI–VIII.), a vemhességi idő 10-11 hónap, benne 6 hónap diapauzával. Évente egyszer kölykezik (IV–V.), kölyökszám 2–4, melyek csupaszon és vakon születnek, 8 hétig szopnak. Nagyon jó ugró. Kiváló a szaglása, hallása. Ügyesen mászik. Táplálékát főként erdei rágcsálók, madártojások és fiókák, madarak, olykor rovarok, bogyók alkotják. Védett.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Közönséges vidra",
+    "nameInLatin": "(Lutra lutra)",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/vidra.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "Részben vízi életmódhoz alkalmazkodott ragadozó kisemlős. A leghosszabb testű európai menyétféle, a kifejlett példányok testhossza az 1-1,3 métert is elérheti, melyből a farok körülbelül 35-45 cm, testtömege 5–10 kg. Széles, lapos fején apró, lekerekített fülkagylók és tapogatószőrökből álló bajusz található. Orr- és fülnyílásai a víz alá merülve bezárhatóak. Nyaka rövid, vastag. Megnyúlt, áramvonalas teste hengeres, melyet sűrű, tömött bunda fed. Alapvetően barna színű, a színezet a test alsó felén kissé világosabb, illetve a toroknál és a fej oldalain ezüstösbarnába hajló. Kurta lábai meglehetősen izmosak, mancsain az 5-5 ujj közt úszóhártya feszül. Nagy talppárnája és kis ujjpárnái miatt jellegzetes nyoma van, melyet csak ritkán kísér karomlenyomat, ugyanakkor olykor a farok vonala is látható. Széles elterjedésű faj, Európában sokfelé honos. Minden típusú, általában halban gazdag folyók, patakok, holtágak, halastavak mentén élnek. A párzás csúcsa tél végére esik (I–II.), de egész évben szaporíthat. A vemhességi idő 2 hónap, évente egyszer kölykezik. Kölykeinek száma 2–4, melyek vakon születnek, 10 hétig szopnak. Ivarérettségüket viszonylag későn, 2-3 éves korukban érik el, és a vidrakölykök sokáig, akár egy éven túl is együtt maradnak anyjukkal. Táplálékát főként halak képezik, de kétéltűeket, csigákat, kagylókat, rákokat, sőt, esetenként rágcsálókat is elfogyasztanak. Fokozottan védett.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  },
+  {
+    "name": "Jávorszarvas",
+    "nameInLatin": "(Alces alces)",
+    "category": "Emlősök",
+    "huntable": false,
+    "picture": [
+      {
+        "img": "allathatarozo/javorszarvas.jpg",
+        "imgDesc": ""
+      }
+    ],
+    "pictureSource": "",
+    "footprint": "",
+    "description": "A legnagyobb testű szarvasféle, jellegzetes orral, toroklebennyel, marpúppal, hosszú lábakkal. Farka igen rövid, szőrzete barnás vagy szürkés, lába mindig világos. Csak a bikák viselnek agancsot, amely Európában nem mindig lapátos, szárai közel vízszintesen fejlődnek. Csülkei hosszúak, szétállóak. Állán szakáll is van. A bikák testtömege 300–700 kg, a teheneké 200–500 kg, marmagassága 1,4-2,1 m. Óriási elterjedési területe van, Skandináviától Észak- Ázsián keresztül Észak-Amerikáig, ezenkívül majdnem egész Kanadában, Alaszkában és az USA északi tagállamaiban él.  Nálunk nem él, mindössze néhány előfordulása ismert. Főleg lápos, mocsaras-vizes élőhelyeken fordul elő, nagyrészt elegyes erdőkben él. Sokat és nagy távolságokra vándorol. Szétterpeszthető patái lehetővé teszik, hogy behatoljon a lápokba és mocsarakba, de a magas hóban is nagyon jól tud mozogni, illetve nagyon jól és kitartóan úszik. Az üzekedés őszre esik (IX.), a vemhességi idő 242–250 nap, évente egyszer ellik (V.), a borjúszám 1 (ritkán 2), a borjak 3-4 hónapig szopnak. Nyáron a levelek és hajtások képezik táplálkozása alapját, télen főleg a rügyek, de ezt mindig több-kevesebb vízinövénnyel egészíti ki. Nem védett, nem vadászható.",
+    "huntingSeasons": [
+      {
+        "name": "",
+        "months": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0
+        }
+      }
+    ]
+  }
+]

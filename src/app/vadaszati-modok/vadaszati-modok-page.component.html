@@ -1,0 +1,256 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Vadászati módok</ion-title>
+        <ion-buttons slot="start">
+            <ion-menu-button *ngIf="detailsPage == ''"></ion-menu-button>
+            <ion-button *ngIf="detailsPage !== ''" (click)="detailsPage = ''">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+                Vissza
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+<ion-content color="light">
+    <ion-grid *ngIf="detailsPage == ''">
+        <ion-row>
+            <ion-col>
+                <a (click)="detailsPage = 'egyeni'"><img src="assets/icon/egyeni.svg"></a>
+            </ion-col>
+            <ion-col>
+                <a (click)="detailsPage = 'tarsas'"><img src="assets/icon/tarsas.svg"></a>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <div *ngIf="detailsPage == 'egyeni'">
+        <h1>Egyéni vadászati módok</h1>
+
+        <p>Egyéni vadászatnak minősül a vadász magányosan vagy vadászkísérővel gyakorolt vadászata. Ez a
+            vadászati mód, illetve ennek különféle válfajai a nagyvad, üregi nyúl, vízivad, galambfélék,
+            dúvad és az erdei szalonka vadászatára szolgálnak. Egyéni vadászati módok a cserkelés, a les, a
+            barkácsolás és az ezek kombinációjából alakult, egyes vadfajok elejtésére különösen alkalmas
+            speciális vadászati módok.</p>
+
+        <h2>Barkácsolás</h2>
+
+        <p>
+            <img src="assets/vadaszatimodok/barkacsolas.jpg"><br>A barkácsolás a vadászat egyik legszebb és
+            legérdekesebb módja, amelynek során jármű vagy fogat használatával közelítjük meg az elejteni
+            kívánt vadat, kihasználva azt az előnyt, hogy a vad a terü- leten egyébként is mozgó és általában
+            veszélyt nem jelentő járműveket jobban bevárja, mint a gyalogosan közelítő embert. Lehet, hogy
+            valóban csak megközelítjük, és a lövés leadásához már leszállunk a járműről vagy kocsiról,
+            hogy rövid cserkelésre induljunk, de ez nem mindenütt felté- tel (112. kép), viszont lövést nem
+            tehetünk mozgó motoros járműről vagy egyéb mozgó járműről, így fogatról sem.</p>
+
+        <p><img src="assets/vadaszatimodok/barkacsolas2.jpg"><br>A klasszikus barkácsolás eszköze a lovas
+            vadászfogat, amelyet a vad nagyobb bizalommal fogad és közelebb enged magához, mint a gyalogos vadászt
+            vagy a motoros járművet mindaddig, amíg több kellemetlen tapasztalatot nem szerez. Alkalmazásának
+            azonban elengedhetetlen feltétele az utakkal jól feltárt erdő-mező, eredményességét pedig
+            elősegíti, ha lovas fogatok nem csak a vadá- szat idején mozognak a területen, hanem egész évben más
+            munkáknál is.</p>
+
+        <h2>Cserkelés</h2>
+
+        <p>A cserkelés (vagy cserkészés) nem más, mint az erdős, bokros területeken való gyalogos vadkeresés, a
+            megpillantott vad minél jobb megközelítése, szemrevételezése és – ha arra alkalmas – elejtése (12.
+            ábra).</p>
+
+        <p>Ez utóbbi persze csak pont az „i” betűn, de nem feltétlenül fontos. Egy jó cserkelés e nélkül is
+            képes maradandó élményt nyújtani: többet láthatunk, és vendégeinknek is többet mutathatunk az
+            erdő és a vad titkaiból, mint más vadászati módokkal. Ugyanakkor ez a vadászat feltételezi talán a
+            legnagyobb felkészültséget, hely- és vadismeretet a vadásztól, és az ősi vadászathoz is ez a
+            módszer áll legközelebb.</p>
+
+        <p>A sokszor egész napos cserkelés alatt a vadásznak minden idegszála átalakul, „visszasüllyed” a
+            kőbaltás ősök világába, még ha nem is érzékeli ezt. Gondoljuk csak el: a vadász mozog, és a vad
+            áll, vagy</p>
+
+        <p>bármit tesz is, közben éberen figyel. A vadász az idegen, és a vad van igazán otthon. A vadász a
+            rosszul látó, gyengén halló, lassú mozgású és az erdei illatoktól elütő „rossz szagú”
+            látogató. És mégis a sikerben reménykedik! S ha ez bekövetkezik, az öröme nem alaptalan. Ha
+            valakinek sikerül 25–30 méterre becserkelnie a szőlősorokban csipegető őzbakot, a havas,
+            holdvilágos éjszakán feketediót ropogtató vadkant vagy a csupa szem és csupa fül teheneitől
+            körülvett bőgő bikát, akkor fogja megérteni, miért is vonzó ez a vadászati mód!</p>
+
+        <h2>Csapázás vagy nyomkövetés</h2>
+
+        <p><img src="assets/vadaszatimodok/csapazas.jpg"><br>A vad csapázására, nyomának követésére néha
+            rákényszerül a vadász, máskor önként választja azt. Az első eset a sebzett vad csapájának etikus
+            vadászhoz méltó kötelességszerű (és a vadászati jogszabály által kötelezően elő is írt)
+            követésekor áll fenn. Ebben az esetben, lehetőleg jó kutya segítségével, mindent meg kell tenni az
+            esetleg csak megsebzett vad kézre kerítéséért, annak a szenvedéstől való megváltásáért. A
+            második eset ennek a bekezdésnek a tulajdonképpeni tárgya, amikor a vadász az egészséges vad
+            csapáját követi a vad elejtése reményében.A sikeres csapázásnak számos feltétele van, amelyeknek
+            véletlen és ritka teljesülése miatt ez a vadászati mód nem mondható általánosnak hazánkban. Más
+            a helyzet távoli vidékeken, ahol például a prémvadászok űzik a nem éppen könnyű sikert ígérő
+            mesterségüket, s ahol ez a nagy tapasztalatot igénylő és fortélyaiban is kiművelt
+            zsákmányszerzési, vadászati mód szinte mindennapos.</p>
+
+        <h2>Hívás</h2>
+
+        <p>A vad elejtése érdekében sok fortélyhoz folyamodhat a vadász. Ezek közé tartozik egyes vadfajok
+            hangjának utánzása vagy az éhes, területét védő ragadozó becsapása a zsákmányállatok hangjával
+            történő „visszaéléssel”. Kicsit úgy érezhetjük magunkat e vadászati mód alkalmazásával, mint aki
+            el tudott lopni valamit a természettől, mintha tudnánk beszélni az állatok nyelvén. Milyen felté-
+            telek szükségesek a hívással történő vadászathoz? Az első és legfontosabb a jó hallás, a
+            második a kellő vadismeret, végül a jó minőségű hívóeszközök. A vadászati jogszabály nem
+            engedélyezi elektronikus akusztikai eszközök használatát. Ha valakinek teljesen botfüle van, mondjon
+            le a hí- vással való vadászat sikerélményéről</p>
+
+        <p>A hívást mint vadászati módot alkalmazhatjuk a gím- és dámbika, az őzbak, az apróvad néhány faja
+            és a ragadozók (amennyiben vadászhatóak) némelyikének vadászatára. Igaz, a felsorolás némi
+            kiegészítésre szorul, mert a gím- és dámbikát sokszor csak megszólaltatni akarjuk, hogy elárulja a
+            helyét, vagy éppen megállítani, hogy lövéshez jussunk. Ritkábban célunk ezeknél a szó szerint
+            értett hívás, bár ez sem kizárt. Jó módszer alkalmazásával valóban „hívni” lehet az őzbakot és
+            a ragadozókat, mint ahogyan azt a későbbiekben majd ismertetjük.</p>
+
+        <p>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/R-IioEMQKZs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            A szarvasbika bőgési hangjának utánzására bőséges eszköztárat alakított ki a találékony ember.
+            Ilyen a tengeri eredetű tritoncsiga öblös háza vagy a rezonálás érdekében minél vékonyabbra le-
+            csiszolt falú magyar szürkemarha-szarv jó szájkiképzéssel. Régebben használták a petróleumlámpa
+            nagyméretű üvegét – a hátizsákban általában a legrosszabbkor összetörő „lámpacilindert” – és a
+            foltosbürök (Conium maculatum) jól kiszárított, alul öblösödő gyökfőjét. Manapság leginkább
+            mű- anyag csövet alkalmaznak, némelyiket két egybetolt rész mozgatásával még modulálhatóvá is
+            tesznek. A gímszarvas hívásával célunk, hogy közelebb csaljunk egy-egy tehenek nélküli
+            keresőbikát bőgésünkkel.
+        </p>
+
+        <h2>Lesvadászat</h2>
+
+        <p><img src="assets/vadaszatimodok/lesvadaszat.jpg"><br>Az egyéni vadászatnak az egyik leggyakrabban
+            alkalmazott és legkedveltebb módja. Kiválóan alkalmas a vad nyugodt és körültekintő
+            megfigyelésére, bírálatára és biztonságos – a sebzés kocká- zatával kevésbé járó –
+            elejtésére, hiszen a vadász általában stabil, kényelmes pozícióból, kitámasztott kézzel és
+            puskával tehet lövést. Igen alkalmas a kísérő vadász segítségének igénybevételére, hiszen itt
+            általában van idő és hely a „több szem többet lát” előnyének kihasználására. Ahhoz, hogy lesvadászatunk
+            sikeres legyen, szintén igen szerteágazó ismeretekkel kell rendelkeznünk: tudnunk kell a
+            vadfajok napi életritmusát, táplálkozással, párzással kapcsolatos szokásaikat, viselkedésük
+            jellegzetes vonásait, tudományos néven a vad etológiáját. A lesvadászat lehetséges helyszínét a
+            vadászati törvény végrehajtási rendelete úgy korlátozza, hogy a vadászterület határától
+            számított háromszáz méteren belül lesvadászatot folytatni, vadászati berendezést, etetőt, befogót
+            létesíteni a szomszédos vadászatra jogosulttal kötött megállapodás alapján lehet.</p>
+
+        <p>A lesvadászathoz gyakran valamilyen vadászati berendezést (magaslest, szórót stb.) veszünk igénybe. A
+            nagyvad viselkedését ismernünk kell ahhoz, hogy jól válasszuk meg a les idejét. Az őz kilóg a
+            sorból azzal a tulajdonságával, hogy nappal is rendszeresen táplálkozik, mozog. A többi nagyvadunk
+            esetében azt mondhatjuk, hogy fő táplálkozási időszakuk a késő délutántól, sokszor inkább
+            estétől a hajnali kivilágosodásig tartó éjszaka. Zavartalan élőhelyeken persze a nagyvad nappal is
+            lehet aktív. Bizonyság erre a legóvatosabb, legrejtettebb életet élő vaddisznó viselkedésé- nek
+            igen gyors változása. Ha olyan disznóskertben él, ahol az év nagyobb időszakában vadászati
+            kíméletben részesül, akkor felhagy éjszakai életmódjával. Ilyen helyeken nem ritka a nappal is
+            mozgó konda, a nyiladékra ki-kiballagó kan és a napsütéses domboldalban malacait vezető, nyugodtan
+            turkáló koca.A les legeredményesebb időszaka tehát az estétől hajnalig tartó táplálkozással esik
+            egybe. Ha az éjszakai vaddisznó- és rókavadászatot leszámítjuk, lesvadászatra marad a délután, az
+            este, a hajnal és a kora reggel.</p>
+
+    </div>
+    <div *ngIf="detailsPage == 'tarsas'">
+
+        <h1>Társas vadászati módok</h1>
+
+        <p>Az ember evolúciója közösségekben történt, ezért szívesen osztja meg társaival örömét-bánatát.
+            Rá- adásul a közösség erejében bízva, arra építve bizonyos tevékenységekben sokkal eredményesebb
+            is. Nem kivétel ez alól a vadászat sem. Az öröm, az élmény megosztása, együttes megélése
+            embereket, közösségeket tart össze, s a közös vadászatok sokszor életre szóló barátságokat
+            eredményeznek.Alkalmasak ezek az események a tapasztalatok átadására, a fiatalok oktatására, de
+            természetesen az sem mellékes szempont, hogy a közös vadászatok zsákmánya mindig több az
+            egyéniekénél.</p>
+
+        <h2>Vaddisznóhajtások</h2>
+
+        <p><img src="assets/vadaszatimodok/vaddisznohajtas.jpg"><br>A jogszabályi előírások alapján
+            hajtóvadászatot nagyvadfajaink közül csak a vaddisznóra szervezhetünk. A jogszabályi megkötéseken
+            túl azonban etikai megfontolások is akadályozzák a másik négy hazai nagyvadfajra történő
+            hajtóvadászatot. Ezért azok hajtásának minden válfaja kikerült a hazai engedélyezett vadászati
+            módokból. A gím- és dámszarvas vászonfalas hajtóvadászatai, valamint a szarvas falkavadászata ma
+            már a múlté. Bár napjainkban Európában például Dániában őzre vagy Spanyolországban szarvasra,
+            muflonra is tartanak hajtóvadászatot, Magyarországon ez csak évszázadokkal ezelőtt volt divatban, a
+            farkasok rémzsinóros hajtóvadászatát azonban még a XX. század elején is gyakorolták.</p>
+
+        <p>A ráhajtás sematikus ábrája:<br><img src="assets/vadaszatimodok/rahajtas.png"><br>A vadászatok időbeli
+            sorrendjét a vaddisznó kedvelt sűrűinek térbeli elhelyezkedése alapján kell megtervezni.A rövid
+            téli napokon 3-4 hajtás szervezésére van általában lehetőség.A januári hajtásoknál választhatjuk
+            az addig még nem hajtott sűrűk mellé a két legjobbat a november–decemberben hajtottakból. Így közel
+            két azonos értékű vadásznapra számíthatunk.</p>
+
+        <p><img src="assets/vadaszatimodok/vaddisznohajtas2.jpg"><br>A vaddisznóhajtásokat legcélszerűbb 12–15
+            vadászra tervezni.Az ennél nagyobb létszámú vadá- szat néha elkerülhetetlen (több vendég
+            jelentkezik be, szükséges az értékesítés a nagyobb bevétel érdekében stb.), ilyenkor azonban
+            gyakran le kell mondanunk a több átállásról, tehát csak 2-3 hajtást tervezhetünk, mivel a sok
+            vadász mozgatása, felállítása általában több időt igényel.</p>
+
+        <h2>Terelővadászat</h2>
+
+        <p>Német nevéből (Riegeljagd) meghonosodottan, sokfelé nem is ismerik másképpen, mint „riglizés” (18.
+            ábra). Napjaink jogi szabályozása szerint lőhető a vaddisznó, a gím- és dámszarvasból a
+            tehén,ünő, borjú, a muflonjuh, jerke, bárány, az őzsuta és gida, valamint a szőrmés ragadozók.
+            Terelővadászaton hajtókutyákat a vad felkutatására alkalmazni tilos (sebzett vad utánkeresésére
+            természetesen szabad, sőt kívánatos). A részt vevő vadászok számát tekintve, a jogszabály
+            szerint a hajtóvadászatoknál már említett maximálisan 25 fő az irányadó, de a klasszikus terelés
+            általában kevesebb, 6–8 vadász részvételével történik.</p>
+
+        <p>A terelővadászat sematikus ábrája:<br><img src="assets/vadaszatimodok/terelovadaszat.png"><br>A
+            terelővadászat célja már a nevében is benne van. Nem hajtani, terelni kell a puska elé a vadat, annak
+            megszokott váltóin. Szép csendben, lassan haladva, amit a „terelés” szó maga is jelent. Éppen ezért a
+            lőállások ez esetben nem egyenletes távolságra vannak egymástól, mint a hajtásoknál, hanem a
+            legkedveltebb, legjobban használt vadváltókra állítja a vadászatvezető a vadászokat. Lehet, hogy
+            száz méteren belül ketten is állnak, de újabb kétszázon senki. Azt kell tehát tudni, hogy hol vannak
+            azok a váltók, ahol a nappali pihenőhelyéről felkeltett vad – nem hanyatt-homlok menekülve, hanem
+            szinte kelletlenül – a biztonságosnak hitt és megszokott vadcsapáson „odébb akar állni”.</p>
+
+        <h2>Mezeinyúl-vadászatok</h2>
+
+        <p>Valamennyinek a helyszíne a mezőgazdasági művelésű terület. Hogy kisebb-nagyobb erdőfoltok
+            belekerülnek, az a helyi adottságokból következően természetes lehet, hiszen a nyúlállomány
+            helyenként az erdős területeken is feldúsulhat állandó vagy – rossz időjárás esetén – ideiglenes
+            jelleggel. Ebből következik, hogy hajdanában – a fogolybőség idején – ezeken a vadászatokon színesedett
+            a teríték,ilyenkor estek a „téli foglyok”.A nyár végi foglyászat már valószínűleg
+            véglegesen a múlt ködébe vész, így az augusztusi fogolyvadászatokról külön nem is teszünk
+            említést.</p>
+
+        <p>A cseh pászta sematikus ábrája:<br><img src="assets/vadaszatimodok/csehpaszta.png"><br>A nyúlvadászatok
+            szervezésének egyik lényeges jellemzője, hogy a faj területhűségét használja ki. A mezei nyúl
+            ugyanis egy darabig hagyja magát előrehajtani, de amikor már számára teljesen ismeretlen területre
+            ér, az emberektől való félelménél nagyobb lesz az eredeti élőhelyéhez való ragaszkodása, és a
+            puskások vonalán keresztül visszatör megszokott revírje felé. A nyúl e tulajdonsága majdnem minden
+            társas vadászatának az alapja.</p>
+
+        <h2>Fácánvadászatok</h2>
+
+        <p>Erdei vadászatok voltak eredetileg, és bár napjainkban a gyakorlatban kissé összemosódnak a klasszikus
+            vadászati módok, az igazi nagy terítékű fácánvadászatok színhelye ma is a nagyobb
+            kiterjedésű, megfelelően feltárt és előkészített fácános vadászerdő.</p>
+
+        <p>A mezei ráhajtás sematikus ábrája:<br><img src="assets/vadaszatimodok/rahajtas2.png"><br>Az éves
+            fácánteríték döntő része ráhajtásos vadászatokon kerül terítékre.A bokrászás (későbbiekben
+            lesz róla szó) vagy vonalhajtás eredményessége messze elmarad ettől. Ugyanakkor a vadászati érték
+            vonatkozásában sokan többre becsülik az egész napi területjárás során elejtett vadászonkénti
+            4-5 kakast, mint a ráhajtások kevésbé sportos 50–100 madarát.</p>
+
+        <h2>Keresővadászat (bokrászás)</h2>
+
+        <p>A nagyvadas társas vadászatok sorában megismert terelővadászat apróvadas megfelelője.A kereső-
+            vadászat (26. ábra) annyiban feltétlenül hasonlít a terelővadászathoz, hogy kevés emberrel és
+            kisebb területen folyik, mint a hajtóvadászatok. Bokrászásnak is hívják, azonban ez a kifejezés
+            sokszor nem fedi a valós tartalmat, mert kitűnő vadászati módja ez a forma a hosszú, keskeny vízparti
+            (patakparti) nádasok és kisebb gazos foltok levadászásának is. Jogszabályaink újra lehetővé teszik
+            azt a régi gyakorlatot, amikor ezt a vadászati módot olykor egyetlen ember is gyakorolta, ha volt hozzá
+            jó kutyája; „a régi szép időkben” így foglyászni is lehetett. A vadászati módszer átmenetté vált
+            az egyéni és a társas apróvadvadászatok között.A megszerzett élményt tekintve szinte mindegy, hogy
+            egyénileg vagy társainkkal együtt gyakoroljuk-e, az eredményesség szempontjából azonban kedvezőbb a
+            néhány vadász (5-6 fő) által folytatott bokrászás.A vadászat időpontjának legalkalmasabb a kora
+            őszi, apróvadas idény eleje. Ilyenkor még jelentős a takarás, általában melegek a nappalok, ezért
+            a vad menekülési távolsága kicsi (szinte láb alól kel a vad).</p>
+
+        <h2>Trambulinos röptetésű récevadászat</h2>
+
+        <p>Itt kizárólag a mesterségesen keltetett és nevelt tőkés réce vadászatáról beszélhetünk (27.
+            ábra). A tenyésztelepen 5-6 hetes korukig nevelt kisrécéket olyan vízparti helyre terelik, ahol a
+            parton, bizonyos távolságon – kb. 150–200 méteren – belül egy természetes takarás mögé fel lehet
+            építeni egy, a vízről nem látható röptetőt. Ez a természetes takarás legtöbbször egy
+            erdős-fás tóparti dombvonulat.</p>
+    </div>
+</ion-content>

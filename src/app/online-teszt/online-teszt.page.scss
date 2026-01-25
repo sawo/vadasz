@@ -1,0 +1,95 @@
+.question-title {
+  font-size: large;
+}
+
+.answer-button {
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  white-space: normal;
+}
+
+.answer-button::part(native) {
+  line-height: 160%;
+}
+
+.letter-button {
+  width: 15%;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+.answer-item {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.correct-answer {
+  --background: #248716;
+  --transition: .25s ease-in-out;
+}
+
+.wrong-answer {
+  --background: #b30000;
+  --transition: .25s ease-in-out;
+}
+
+.question-card {
+  margin-top: 0;
+  width: 100%;
+}
+
+.evaluation-button {
+  --background: #269916;
+}
+
+.reset-button {
+  --background: #ca0000;
+}
+
+chart canvas {
+  background-color: #3dc2ff;
+}
+
+.span-center {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.success {
+  color: #248716
+}
+
+.unsuccess {
+  color: #b30000;
+}
+
+.good-enough {
+  color: #996633;
+}
+
+.number-of-questions {
+  display: flex;
+  align-items: center;
+}
+
+.start-button {
+  width: 100%;
+  --background: #269916;
+}
+
+.tip {
+  text-align: justify;
+}
+
+.counter {
+  display: block;
+  margin: auto;
+}
+
+ion-select {
+  color: black;
+  --placeholder-color: black;
+  --placeholder-opacity: 1;
+}

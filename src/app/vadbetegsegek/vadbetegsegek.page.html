@@ -1,0 +1,227 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Vadbetegségek</ion-title>
+        <ion-buttons slot="start">
+            <ion-menu-button *ngIf="detailsPage == ''"></ion-menu-button>
+            <ion-button *ngIf="detailsPage !== ''" (click)="detailsPage = ''">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+                Vissza
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content color="light">
+    <ion-grid *ngIf="detailsPage == ''">
+        <ion-row style="padding-top: 2em">
+            <ion-col>
+                <a (click)="detailsPage = 'szárnyas'"><img src="assets/icon/szarnyasbeteg.svg" width="80%" class="ion-float-right"></a>
+            </ion-col>
+            <ion-col>
+                <a (click)="detailsPage = 'nyúl'"><img src="assets/icon/nyulbeteg.svg" width="80%"></a>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <a (click)="detailsPage = 'csülkös'"><img src="assets/icon/csulkosbeteg.svg" width="80%" class="ion-float-right"></a>
+            </ion-col>
+            <ion-col></ion-col>
+        </ion-row>
+
+    </ion-grid>
+
+    <div *ngIf="detailsPage == 'szárnyas'">
+        <h1>A szárnyasvad betegségei</h1>
+
+        <h2>Baromfipestis</h2>
+
+        <p>Főként a tyúkfélék (fácán, fogoly) vírus okozta, bejelentési kötelezettség alá tartozó járványos betegsége. Belégzéssel (cseppfertőzés, felvert por) vagy szájon át (ürülékkel szennyezett etető, itató, alom) fertőződnek a madarak.
+            <br>
+            <img src="assets/betegsegek/baromfipestis.jpg"><br>
+            Túl heveny lefolyás esetén hirtelen, betegség tünetei nélkül pusztulnak el a fertőzött állatok. Heveny esetekben szörtyögés, fejrázás, zöldes színű, esetleg véres hasmenés jelentkezik. Idült formájánál jellemzőek az idegrendszeri elváltozások: fejremegés, nyaktekergetés, görcsök.
+            <br>
+            <img src="assets/betegsegek/baromfipestis2.webp"><br>
+            A kórhatározás csak laboratóriumi vizsgálattal lehetséges, a fertőzött állományt kiirtják.
+        </p>
+        <p>Megelőzés, védekezés: legfontosabb a behurcolás megakadályozása (a telep izolálása, személyi és
+            eszközhigiénia). A tenyésztett fácánok, foglyok vakcinázása kötelező. Az elhullás akár 90-100% is lehet.</p>
+
+
+        <h2>Kacsapestis (kacsák vírusos bélgyulladása)</h2>
+
+        <p>Vírus okozta, bejelentési kötelezettség alá tartozó járványos betegség. A beteg madarak étvágytalanok, csendesek, nehézkesen mozognak, a vízen „csak ülnek”. Erős könnyezés, később orrfolyás és kékeszöld hasmenés is jelentkezhet.
+            <br>
+            <img src="assets/betegsegek/kacsapestis.jpg"><br>
+            Kórhatározás: laboratóriumi vizsgálat szükséges.</p>
+
+        <p>Megelőzés, védekezés: a behurcolás megakadályozásán kívül ajánlatos a vakcinázás. Az elhullási arány közelítheti a 90 %-ot.</p>
+
+        <h2>Madárinfluenza</h2>
+
+        <p>Vírus okozta, bejelentési kötelezettség alá tartozó járványos betegség. A vírusnak viszonylag rövid idő alatt újabb változatai jelenhetnek meg. Az újabban megjelent nagy kórokozó képességű változat az emberre is veszélyes. A vizsgált madárfajok majd mindegyikéből sikerült kimutatni influenzavírust. Terjedésében a költöző madaraknak van nagy szerepe. A tenyésztett vadmadarak vándorló madaraktól fertőződhetnek. </p>
+        <br>
+        <img src="assets/betegsegek/madarflu1.jpg"><br>
+        <p>A betegség tünetei hasonlóak a baromfipestisnél észleltekhez. </p>
+        <img src="assets/betegsegek/madarflu2.jpg"><br>
+        <p>Kórhatározás: laboratóriumi vizsgálat szükséges.</p>
+        <p>Megelőzés a behurcolás megakadályozásával lehetséges. Az elhullás aránya attól függ, hogy milyen az elkapott vírustörzs.
+
+        <h2>A fácán botulizmusa</h2>
+
+        <p>A bénulással és gyakran jelentős elhullással járó betegséget egy baktérium (Clostridium botulinum) toxinjai idézik elő. Ezek a toxinok vízben oldódnak, és erősebbek bármely kígyóméregnél. A baktérium spórás alakjai a talajban, iszapban évekig fennmaradnak, különösen a mélyebben fekvő, levegőtől elzárt területeken. Az elpusztult fácán a nyári melegben gyorsan bomlásnak indul, s benne a Clostridium baktérium is felszaporodik. A tetemet ellepik a húslegyek kikelt lárvái (nyűvek), és behatolnak a testnyílásokon, a rothadó anyagot fogyasztó lárvákban felhalmozódik a toxin. Az ilyen légynyűveket, vagy azok bábjait gyakran szedegetik fel az egészséges fácánok, és ezek már megbetegszenek a toxintól. Előfordult, hogy egy kibocsátóhelyen az összes (ötezer) fácán botulizmusban pusztult el. </p>
+        <p>Tünetek: a lábaktól a fej felé haladva az izmok petyhüdt bénulása tapasztalható, majd teljesen mozgásképtelenné válnak</p>
+        <p>Kórhatározás: a bénulás jellegzetessége már utal a betegségre, de laboratóriumi vizsgálat szüksé-ges.</p>
+        <p>Kórhatározás: a bénulás jellegzetessége már utal a betegségre, de laboratóriumi vizsgálat szükséges. Megelőzés, védekezés: Igen fontos a tetemek megkeresése, a korai diagnózis érdekében (laboratóriumi vizsgálat!), hogy a „járvány” megelőzhető legyen. A fertőzött talajú területeket évekig nem szabad használni, illetve fertőzött területre csak időben vakcinázott állatokat érdemes kihelyezni.</p>
+
+        <h2>Tavi bénulás (a vízimadarak botulizmusa) </h2>
+
+        <p>Sekély, iszapos, pangó vízben (kis tavak, árkok, lápok) a Clostridium botulinum spórái évekig életképesek. Csapadékszegény kánikulában a sűrű, sok bomló szerves anyagot tartalmazó víz 35-40 o C-ra felmelegszik, és oxigénhiányossá válik. Ez lehetővé teszi a spórák kicsírázását, a gyorsan szaporodó baktériumok pedig elkezdik termelni a botulotoxint. Főként a vízen szürcsölve táplálkozó récék, de alkalmasint más vízre járó madarak (sirály- és gémfélék) betegszenek meg a jellegzetes bénulásos tünetekkel. A tenyésztett récéket ilyen időszakban nem ajánlatos a vízre engedni, csak ha már korábban vakcinázták az állományt. Az elhullás akár 100%-os lehet.</p>
+
+
+        <h2>Tüdőmikózis vagy tüdőpenész (aszpergillózis)  </h2>
+
+        <p>Rendszerint korábban megnedvesedett, ázott (penészes) alomszalmában, vagy szénában lévő aszpergillusz (Aspergillus fumigatus) spórái a betegség forrásai. A beteg madarak tátott csőrrel, előrehajolva lélegeznek, és fejüket rázogatják. Az elhullás rövid időn belül bekövetkezik. Elhúzódó esetben az egyébként tünetmentes madarak lesoványodva pusztulnak el. </p>
+
+        <h2>Légcsőférgesség fácán- és fogolytenyészetekben</h2>
+
+        <p>A vérszívó légcsőféreg (Syngamus tracheae) főként a tyúkfélékre nézve veszélyes. A fertőzött madarakból tüsszentéssel, vagy az ürülékkel kijutó féregpetékből fejlődő lárvák földigilisztákban, csigákban halmozódnak fel. Különösen eső után nagy a fertőzés veszélye a földes kifutókba kiengedett csibékre. A gilisztával bejutott lárvák előbb a tüdőben vándorolva, majd a légcsőben, hörgőkben megtapadva légzési nehézséget, később vérszegénységet okoznak. Az étvágytalan, gubbasztó, lesoványodott madarak el is pusztulhatnak.</p>
+
+    </div>
+    <div *ngIf="detailsPage == 'nyúl'">
+
+        <h1>A mezei nyúl fontosabb betegségei</h1>
+
+        <h2>A mezei nyúl ún. vérzéses májelfajulása (EBHS: European Brown Hare Syndrome)</h2>
+
+        <p>A 80-as években figyeltek fel e kalicivírus okozta betegségre Európában. Az utóbbi években nálunk is
+            ismételten diagnosztizálták. Rendszerint az őszi-téli időszakban fordul elő süldőnyulaknál. A túl heveny
+            lefolyás miatt (hirtelen elhullás) betegség tünetei nem észlelhetők.</p>
+        <br>
+        <img src="assets/betegsegek/ebhs.png"><br>
+        <p>Boncolással és későbbi laborvizsgálattal állapítható meg a diagnózis. A lép és máj feltűnően nagy méretű. A máj törékeny, sárgás. Elsősorban a fiatal felnőtt egyedeket fertőzheti meg a betegség. Gyógykezelése nem lehetséges.</p>
+
+        <h2>Tularémia</h2>
+
+        <p>Baktérium okozza. Főként a rágcsálók fertőző betegsége, de a mezei nyúl és az ember is fogékony rá, úgynevezett zoonózis. Gradációs években a pocok, pézsmapocok és hörcsög állományokban feldúsul a fertőzöttség, és csaknem a teljes kipusztulásukat okozza. A vérszívó vektorok, főként kullancsok, esetleg bolhák vagy szúnyogok is terjesztik a kórokozót. A betegség elsősorban a lép és a nyirokcsomók megnagyobbodását okozza. Az ember a mezei nyúl húsának feldolgozása kapcsán fertőződhet. </p>
+        <br>
+        <img src="assets/betegsegek/tularemia.jpg"><br>
+        <p>Nyúlnál észlelhető tünetei a tüdő csúcslebenyeiben, olykor a lépben, májban, vesében és a nyirokcsomókban kölesnyi-borsszemnyi, egyenetlen szélű, a felület fölé emelkedő gócok, olykor góchalmazok.</p>
+    </div>
+    <div *ngIf="detailsPage == 'csülkös'">
+
+        <h1>A csülkös vad vírus okozta betegségei</h1>
+        <p>Általánosságban elmondható róluk, hogy igen magas (akár 100%-ot elérő) elhullással járnak. A kialakult betegség többnyire gyógyíthatatlan. A betegség lefolyása gyors, néhány nap vagy egy-két hét.
+        </p>
+        <h2>Veszettség</h2>
+
+        <p>Bejelentési kötelezettség alá tartozik. A veszettség a ragadozók tipikus betegsége, hazánkban így főként a róka, sakál, kóbor macska és kutya terjeszti. A csülkös vad fertőződése szinte kizárólag a ragadozó harapásával történik. A betegség fontos ismérve, hogy a vad indokolatlanul szelíddé válik, mely hirtelen csaphat át agresszióba. Előrehaladott állapotában nyálfolyás és kancsalság is fellépő.
+            <br>
+            <img src="assets/betegsegek/veszettroka.jpg"><br>
+        </p>
+        <p>A betegséget az ember is elkaphatja és az időben kapott oltás nélkül halálos kimenetelű. Megelőzésére több mint egy évtizede vakcinázzák a vadon élő ragadozókat. Hazánkban hosszú mentes időszak után 2021-től újra megjelent és az esetszáma folyamatosan növekszik.</p>
+
+        <h2>Klasszikus sertéspestis</h2>
+
+        <p>Bejelentési kötelezettség alá tartozik. Kizárólag a sertést betegíti meg. A betegség nagy ragályozó képességű és első sorban a malacok hullanak el benne. A vírus igen ellenálló a környezeti hatásokkal szemben. A fertőzés közvetlen érintkezéssel, illetve a testváladékokkal terjed. Igen magas láz, bágyadtság jellemzi a beteg egyedet, mely vérzéses tünetekkel, hasmenéssel és részleges bénulással párosulhat. A betegséget átvészelt kocák immunitást szereznek. Az állomány 30-60, szélsőséges esetekben akár 100%-a is elpusztulhat.</p>
+
+        <h2>Afrikai sertéspestis</h2>
+
+        <p>Bejelentési kötelezettség alá tartozik. Hazánkban 2018-ban jelent meg először. Kizárólag a sertéseket betegíti meg. A vírus nagyon ellenálló, még egyes hústartósítási eljárásokkal szemben is. A megfertőződött egyedek gyakorlatilag 100%-ban elhullanak. A betegség közvetlen érintkezéssel és testváladékokkal terjed. Az ember általi véletlen behurcolás szerepe kiemelkedő a terjedésében. Igen magas láz, szöveti bevérzések, belső vérzések, többszörösére duzzadt lép a főbb jellemzők. Sokszor az egész konda elhull néhány négyzetméteres területen belül. Csak az állománysűrűség radikális csökkentésével lehet megfékezni, illetve megelőzni.</p>
+
+        <h2>Az őz papillomatózisa</h2>
+
+        <p>Vírus okozta megbetegedés, mely fajspecifikus. A vírust szúnyogok terjesztik, így a testfelületen bárhol kialakulhat a sejtburjánzás. A mogyorónyitól akár sárgadinnye méretig terjedő daganat zavarja a vadat, illetve, ha olyan helyen van akkor a mozgását, táplálkozását is akadályozza. Ismereteink szerint a fertőzött állat húsa, a daganat ép hússal együtt történt kivágása után fogyasztható, de a daganat undorító külleme nagy visszatartó erő ebben.</p>
+
+        <h2>Gümőkór (Tbc)</h2>
+
+        <p>A csülkös vadfajok gümőkórját az emberi betegségtől eltérő baktérium okozza, de nagyon ritkán embert is megbetegíthet. Jelentősége az állomány fizikai leromlásában, illetve az egyedek elhullásában van. A fertőzés leginkább a vaddisznók között terjed, leginkább a fertőzött és a területen hagyott zsigerek elfogyasztásával.  </p>
+        <br>
+        <img src="assets/betegsegek/gumokor.jpg"><br>
+        <p>A tüdőben, vagy bélben képződő gócok zavarják a légzést, illetve emésztést, ezen felül pedig toxint termelnek, mely folyamatosan mérgezi az egyedet, rontja kondícióját.</p>
+
+        <h2>Lépfene</h2>
+
+        <p>Bejelentési kötelezettség alá tartozik. A baktérium minden melegvérű állatra veszélyes, így az embert is megbetegíti. Legérzékenyebbek a kérődzők. A betegség gyors lefolyású, néhány nap alatt halálos kimenetelű. Nevét a sokszorosára duzzadó lépről kapta. E mellett véralvadási zavarok, téglavörös nyirokcsomók a jellemző tünetek. A baktérium mocsaras-vizes területeken gyakoribb, így a betegség is itt jellemzőbb. A szervezetbe ivóvízzel, táplálékkal vagy belélegezve jut be.  </p>
+        <br>
+        <img src="assets/betegsegek/lepfene.JPG"><br>
+        <p>A levegőn akár több évtizedig is fertőző képes spórás alakba megy át. Ezért a betegség felszámolás nagyon nehéz ott, ahol már megjelent.</p>
+
+        <h1>Férgek, belső élősködők</h1>
+        <p>A vadfajokban számos belső élősködő található, melyek kis egyedszám esetén nem veszélyeztetik a vad életét. Mivel sok fajuk az embert is megfertőzheti, figyelemmel kell lenni a hús feldolgozása során rájuk. Többnyire gusztustalan, undort keltő képleteik vannak a fertőzött szervben, mely könnyen felismerhető.</p>
+
+        <h2>Májmétely</h2>
+
+        <p>A vizes élőhelyeken sok esetben megtalálható a gímben, őzben és vaddisznóban. Bennük megbetegedést nem okoz. Kizárólag a májat károsítja, abban él. A fertőződéshez szükség van a törpe iszapcsigára, mert a métely peték benne fejlődnek fertőzőképes alakokká. Ezek a csigából kijutva a fűszálakra kapaszkodnak, ahonnan a vadba legelés útján jutnak be. Ott a májba vándorolva, az epeerekben telepszenek meg. A peték az ürülékkel jutnak a szabadba. </p>
+        <p>
+            Köztigazdája a törpe iszap- csiga, amely az amerikai májmétely számára is alkalmas (37. ábra). A mételypeték
+            az
+            epével a béltartalomba kerülnek, majd a hulladékkal a szabadba. A vízbe kerülő petékből kiszabaduló csillós
+            lárvák törpe iszapcsigák testébe furakodnak és azokban többszöri ivartalan szaporodással
+            megsokszorozódnak.</p>
+        <br>
+        <img src="assets/betegsegek/majmetely.JPG"><br>
+        <p>
+            Háromféle módon károsít: fizikai jelenlétével, toxikus anyagcsere termékeivel és vérszívásával. Nagy számú métely a vad elhullását okozhatja.
+        </p>
+
+        <h2>Amerikai májmétely</h2>
+
+        <p>Észak-Amerikából származó élősködő. Az 1960-as évekre alakultak ki Európában stabil gócpontjai. Terjedése napjainkban is tart. Főként a gímben és dámban található meg. 2018-ban hazánkban is kimutatták. Ugyan úgy a törpe iszapcsiga a gazdája, mint a májmételynek. A szigetköz és a Hanság erősen fertőzött, de már Somogy vármegyében is gyakori. Károsítása hasonló a közönséges májmételyéhez, de közel kétszer akkora mérete miatta (hossza 2-10 cm) a májszövet fizikai roncsolása sokkal erőteljesebb, szabad szemmel is látható. Illetve akár szilva nagyságú tokokat is képezhat a májon, melyek anyagcseretermékkel teltek.</p>
+
+        <h2>Lándzsásmétely</h2>
+
+        <p>Szintén az epevezetékekben élő kis méretű (10 mm) métely. A száraz gyepekre jellemző, ahol két köztigazdával fejlődik. Először a zebracsigában fejlődik, majd onnan a hangyákba jutva azok viselkedését módosítja, így a hangya a fűszálak tetejére jut, ahonnan lelegelik a végleges gazdaállatok. Mindenféle csülkös vadban, sőt még a mezei nyúlban is előfordul. Megbetegedést, tüneteket csak a muflonban okoz, erős fertőzés esetén. Ekkor az egyed leromlása figyelhető meg.</p>
+
+        <h2>Hólyagférgek</h2>
+
+        <p>Általános jellemzőik, hogy a gazdaállatban az izomban, vagy egyéb szervben hólyagot képeznek, mely alapján jelenlétük könnyen felismerhető. A féreg petéje a környezetbe jut, ahonnan legeléssel, vagy a növényevő állat elfogyasztásával jut a többnyire húsevő állat emésztőrendszerébe. Itt aktiválódik és a fajra jellemző szervbe vándorolva hólyagot képez. Egyes fajok az embert is megbetegítik, illetve akár halált is okozhatnak. </p>
+
+        <h2>A kutya háromtagú galandférge (echinokokkózis)</h2>
+
+        <p>3-4,5 mm hosszú féreg. Hazánkban is előfordul, bár nem túl gyakori. Lárvája a májban képez diónyi, almányi hólyagot, mely csak műtéti úton távolítható el. Főleg a vaddisznóban található meg, melynek fertőződésében a végleges gazdát jelentő kóbor kutyák és vadászebek fontos szerepet játszanak. A kutya ürülékével ürülő peték az embert is fertőzhetik, ezért a kutyák féregtelenítése igen lényeges feladat. </p>
+
+
+        <h2>Róka apró galandférge (alveoláris echinokokkózis)</h2>
+
+        <p>Az élősködő végleges gazdája a róka, így annak megfogása, nyúzása közben különösen óvatosan kell eljárni. Közti gazdája főként pockok, de akár a csülkös vadfajok, sőt az ember is lehet. Az élősködő mindössze 2-4 mm hosszú és a májban fejlődik. Az utóbbi években hazánkban is terjed. A fertőzés a mikro méretű peték lenyelésével, vagy akár belélegzésével is megtörténhet. A lárvák a májban nem gömb szerű hólyagot képeznek, hanem fagyökérszerűen terjednek a szövetek között. A folyamat tünetet többnyire már csak akkor okoz, amikor már nem lehet műtéttel sem eltávolítani a féreglárvákat. Kezelés nélkül az emberre halálos betegség.</p>
+
+
+        <h2>Trichinella</h2>
+
+        <p>2-4 mm hosszú fonalféreg. Kizárólag húsevéssel terjed, ezért a ragadozók, a vaddisznó és az ember élősködője. A vaddisznóba a fertőzött állati hullák elfogyasztásával jut be. A kifejlett féreg a bélben él, de a lárvák az izmokba vándorolnak és ott betokozódnak, borsókát képeznek. Az ilyen hús elfogyasztása után a gyomorban védőburkuk feloldódik és a lárvák a bélfalba fúrják magukat, ahol kifejlődnek. Az ivarérett egyedek itt szaporodnak és a lárvák az izmokba fúrják magukat. Igen kedvelik a rekeszizmot és a bordaközi izmokat. Kizárólag főzéssel pusztítható el, így a vaddisznóból száraz árut, csak trichinella vizsgálat után szabad készíteni. Az emberben a fertőzés kezelés nélkül néhány hét alatt halálos kimenetelű.</p>
+
+
+        <h2>Tüdő-, gyomor- és bélférgek</h2>
+
+        <p>Jellemzően fajspecifikus férgek, melyek mérete akár 6-8 cm is lehet. Jellemzően nem okoznak tüneteket, csak igen nagy egyedszám esetén. A tüdőférgek a tüdőben gócokat eredményezhetnek, míg a bélférgek jellemzően nem okoznak ilyet. Közti gazda nélkül fejlődnek a talajfelszínen, ahonnan a növények legelésével veszik fel az állatok. Megbetegedést csak legyengült állat esetében okoznak.</p>
+
+
+
+        <h1>Bagócsok</h1>
+
+        <p>A bagócsok ízeltlábúak, melyek petéiket, vagy már mozgásképes lárváikat juttatják a vadra. A fajra jellemző helyen él a lárva, majd a kifejlődés után elhagyja a vad testét. </p>
+
+        <p>
+        <h2>Bőrbagócsok</h2>
+
+        <p>A bőrbagócsok főként az őzet és gímet támadják meg. Az április-májusban rajzó bagócsok a láb és has tájékra rakják le a petéiket, ahol azok kikelnek és a lárvák a szőrszálak mentén befúrják magukat a bőrbe. Fél év alatt a bőrben vándorolva elérik a háti részt, ahol átalakulnak. Ekkor a lárva lélegzőnyílást fúr a bőrbe és itt már helytülő módon fejlődik tovább. További négy hónap fejlődés után a kifejlett lárva kimászik a bőrből és talajon bábozódik be. A lárva helyi gyulladást esetleg gennyesedét okoz, de a vadra egyéb hatása nem ismert. A bőrben mozgó lárvák nyúzáskor kifejezetten undort keltőek. </p>
+
+        <h2>Orr-, garatbagócs</h2>
+
+        <p>Az orr-, garatbagócsok nem petéket, hanem már mozgó lárvákat spriccelnek a gím, az őz és olykor a dám orrára. A lárváktól a vad nem tud szabadulni, azok pedig az orr mélyén a rostalemezek között telepednek meg, de a szarvas esetén akár a hörgőkig is levándorolnak. Itt fél évig lassan, majd gyors ütemben növekszenek. Amikor elérik az 1-1,5 centiméteres méretet akkor a garatba vándorolnak, ahol elérik végleges 3-3,5 centis hosszukat. A kifejlett lárvák elhagyják a gazdaállatot és a talajon bábozódnak be. A sok bagócslárvától a légzés nehezített, illetve hörgő lehet, de egyéb káros hatásuk egyelőre nem ismert.  </p>
+
+
+        <h1>Mérgezések</h1>
+
+        <p>Minden állatfajt veszélyeztetnek a mérgezések. Ezt többnyire a mezőgazdaság által használt kémiai szerek okozzák. Leggyakoribb a szétszóródott műtrágya elfogyasztása, melynek íze hasonló a nyalósóhoz. A tömény nitrát és nitrit terhelés azonban a bendőnek komoly terhelést jelent, melyben akár el is hullik a vad.
+            A rágcsálók ellen használatos méreg szakszerűtlen kihelyezése szintén okozhat mérgezést. Sajnos ez szinte mindig elhullással jár.
+            Egyes növények (repce, cirok) is tartalmaznak olyan vegyületeket (erukasav, illetve cianidok) melyek nagy mennyiségben fogyasztva mérgezést okozhatnak. Külön fejezetet érdemlenének a gombák és általuk termelt toxinok, melyek elhullást ritkán, de fejlődése rendellenességeket, vetélést, meddőséget gyakran okozhatnak.
+        </p>
+
+        <p>
+        <h2>Tejsav túlterhelés (bendőacidózis)</h2>
+
+        <p>Jellegzetes mérgezés a tejsav túlterhelés. A nagy mennyiségben elfogyasztott magas keményítő tartalmú gabona abrak a bendőben történő erjedése során tejsavat termel, mely egyrészt felborítja a bendő PH-ját, ezzel hasmenést, erős nyálzást, illetve keringési és légzési nehézségeket okoz. Ez sajnos sokszor végzetes a vadra nézve. A bendő PH-ja nem csak a benne képződött tejsavtól borulhat fel, hanem a rosszul tartósított szilázzsal kívülről bevitt tejsav miatt is. </p>
+    </div>
+
+</ion-content>

@@ -1,0 +1,56 @@
+.animal-details-link:focus {
+  outline: none;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.image-container {
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.animal-cards {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.animal-card {
+  background-color: whitesmoke;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-radius: 2%;
+  box-shadow: rgb(0 0 0 / 12%) 0px 4px 16px;
+  margin-bottom: 1em;
+}
+
+.animal-name {
+  font-weight: bold;
+  display: block;
+  padding-bottom: 6%;
+  padding-top: 6%;
+  padding-left: 4%;
+}
+
+.animal-row {
+  justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 768px) {
+  .animal-card {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+  }
+}
+

@@ -1,0 +1,83 @@
+.main-detail-div {
+  min-height: 100%;
+}
+
+.details-title {
+  font-weight: bold;
+}
+
+.details-sub-title {
+  font-style: italic;
+}
+
+.ion-card-for-cover {
+  margin: 0;
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.ion-card-content-for-cover {
+  padding: 0;
+}
+
+.slideshow-title {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0;
+  color: white;
+  position: absolute;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-weight: normal;
+}
+
+.margin {
+  margin: 1%;
+}
+
+.details-title-row {
+  background-color: lightgray;
+  margin-top: 0;
+  padding: 1%;
+}
+
+.huntable-card {
+  padding-left: 10;
+  padding-right: 0;
+    background-color: lightgray;
+}
+
+.huntable-month {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.not-huntable {
+  color: #dddddd;
+  opacity: 0.5;
+}
+
+.calendar-icon {
+  font-size: 2em;
+}
+
+.text-padding {
+  padding: 0 5%;
+}
+
+.details-text {
+  text-align: justify;
+  font-size: large;
+}
+
+.title {
+  font-weight: bold;
+  padding: 1% 1% 2% 1%;
+  font-size: larger;
+}
+
+.sub {
+  padding: 1%;
+  font-size: large;
+}

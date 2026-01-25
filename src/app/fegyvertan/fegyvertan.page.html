@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Fegyvertan és ballisztika</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="light">
+
+  <ion-grid style= "padding-top: 2em">
+    <ion-row *ngIf="dataLoaded | async" >
+      <ion-col [routerLink]="fegyvertanCategories[0].linkName"
+               [state]="{data: fegyvertanCategories[0].id}"
+               routerDirection="forward">
+          <img [src]="'/assets/' + fegyvertanCategories[0].picture"
+               (error)="fetchLocalDataService.setPlaceholderImg($event)" class="ion-float-right" width="80%">
+      </ion-col>
+      <ion-col [routerLink]="fegyvertanCategories[1].linkName"
+               [state]="{data: fegyvertanCategories[1].id}"
+               routerDirection="forward">
+          <img [src]="'/assets/' + fegyvertanCategories[1].picture"
+               (error)="fetchLocalDataService.setPlaceholderImg($event)" width="80%">
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="dataLoaded | async">
+        <ion-col [routerLink]="fegyvertanCategories[2].linkName"
+                 [state]="{data: fegyvertanCategories[2].id}"
+                 routerDirection="forward">
+            <img [src]="'/assets/' + fegyvertanCategories[2].picture"
+                 (error)="fetchLocalDataService.setPlaceholderImg($event)" class="ion-float-right" width="80%">
+        </ion-col>
+        <ion-col [routerLink]="fegyvertanCategories[3].linkName"
+               [state]="{data: fegyvertanCategories[3].id}"
+               routerDirection="forward">
+          <img [src]="'/assets/' + fegyvertanCategories[3].picture"
+               (error)="fetchLocalDataService.setPlaceholderImg($event)" width="80%">
+      </ion-col>
+    </ion-row>
+    <ion-row *ngIf="dataLoaded | async">
+      <ion-col [routerLink]="fegyvertanCategories[4].linkName"
+               [state]="{data: fegyvertanCategories[4].id}"
+               routerDirection="forward">
+          <img [src]="'/assets/' + fegyvertanCategories[4].picture"
+               (error)="fetchLocalDataService.setPlaceholderImg($event)" class="ion-float-right" width="80%">
+      </ion-col>
+     <ion-col></ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>

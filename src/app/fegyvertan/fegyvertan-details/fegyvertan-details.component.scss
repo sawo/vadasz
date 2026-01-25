@@ -1,0 +1,116 @@
+.main-detail-div {
+  min-height: 100%;
+}
+
+.details-title {
+  font-weight: bold;
+}
+
+.details-sub-title {
+  font-style: italic;
+}
+
+.ion-card-for-cover {
+  margin: 0;
+  border: 1px solid lightgrey;
+  border-radius: 0;
+}
+
+.ion-card-content-for-cover {
+  padding: 0;
+}
+
+.slideshow-title {
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0;
+  color: white;
+  position: absolute;
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-weight: normal;
+}
+
+.margin {
+  margin: 1%;
+}
+
+.details-title-row {
+  background-color: lightgrey;
+    border-radius: 5px;
+  margin-top: 0;
+  padding: 0%;
+}
+
+.huntable-card {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.huntable-month {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.not-huntable {
+  color: #dddddd;
+  opacity: 0.5;
+}
+
+.calendar-icon {
+  font-size: 2em;
+}
+
+.text-padding {
+  padding: 5%;
+}
+
+.accordion-body {
+  border-top: 1px solid whitegrey;
+  width: 100%;
+  padding: 2%;
+  transition: all 3s ease-in;
+}
+
+.accordion-head {
+  font-weight: bold;
+  padding: 5% 3% 5% 2%;
+  display: flex;
+  justify-content: space-between;
+    background-color: #A3C8D4;
+    box-shadow: rgb(0 0 0 / 22%) 0px 4px 16px;
+    border-radius: 5px;
+}
+
+.accordion-content {
+  padding-left: 2%;
+  padding-right: 2%;
+  max-height: 1500px;
+  overflow: auto;
+  transition: 1s ease-in-out;
+  font-size: large;
+}
+
+.pre-text {
+  padding: 0 2%;
+  font-size: large;
+}
+
+.fa-chevron-right {
+  transition: .5s ease-in-out;
+}
+
+.hidden {
+  max-height: 0;
+}
+
+.title {
+  font-weight: bold;
+  padding: 1%;
+  font-size: larger;
+}
+
+.accordion-container {
+  padding: 1%;
+}

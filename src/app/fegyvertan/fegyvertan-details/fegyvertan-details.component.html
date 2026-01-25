@@ -1,0 +1,50 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-title *ngIf="dataLoaded | async">{{currentOption.name}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="fegyvertan"
+                       text="Vissza">
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="dataLoaded | async" color="light">
+
+  <ion-card class="ion-card-for-cover margin">
+
+    <ion-card-content class="ion-card-content-for-cover">
+      <ion-img [src]="'/assets/' + currentOption.picture2"
+               (ionError)="fetchLocalDataService.setPlaceholderImg($event)"></ion-img>
+    </ion-card-content>
+  </ion-card>
+
+  <div class="details-title-row margin">
+    <ion-grid class="huntable-card">
+      <ion-row>
+        <span class="title">{{currentOption.name}}</span>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="pre-text"
+       [innerHTML]="currentOption.preText"
+       *ngIf="currentOption.preText"></div>
+
+  <div *ngIf="currentOption.paragraphs" class="accordion-container">
+    <div class="accordion-body"
+         *ngFor="let option of currentOption.paragraphs, let i = index">
+      <div class="accordion-head"
+           (click)="this.accordionOpen[i] = !this.accordionOpen[i]">
+        <span [innerHTML]="option.title"></span>
+        <i class="fas fa-chevron-right"
+           [ngStyle]="{'transform': accordionOpen[i] ? 'rotate(0.25turn)' : (!accordionOpen[i] ? 'none' : null)}"></i>
+      </div>
+      <div class="accordion-content"
+           [innerHTML]="option.description"
+           [ngClass]="!accordionOpen[i] ? 'hidden' : null">
+      </div>
+    </div>
+  </div>
+
+</ion-content>

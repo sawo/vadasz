@@ -1,0 +1,161 @@
+<ion-header translucent>
+    <ion-toolbar>
+        <ion-title>Szűrés</ion-title>
+        <ion-buttons slot="start">
+            <ion-button class="reset" (click)="resetFilters()">Visszaállít</ion-button>
+        </ion-buttons>
+        <ion-buttons slot="end">
+            <ion-button (click)="dismiss()">Mégsem</ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+
+</ion-header>
+<ion-content >
+    <ion-list style="background-color: lightgray;">
+
+        <ion-searchbar placeholder="Név" [(ngModel)]="filterByName"></ion-searchbar>
+
+        <ion-searchbar placeholder="Latin név" [(ngModel)]="filterByLatinName"></ion-searchbar>
+
+        <ion-searchbar placeholder="Leírás" [(ngModel)]="filterByDescription"></ion-searchbar>
+
+
+        <p *ngIf="categoryError" class="warning">Válasszon ki legalább egy kategória opciót!</p>
+        <ion-item>
+            <ion-label>Kategória</ion-label>
+        </ion-item>
+
+
+        <ion-grid>
+            <ion-row>
+                <ion-col size="6">
+                    <ion-item>
+                        <ion-label>Madár</ion-label>
+                        <ion-checkbox (ionChange)="checkboxValuesEvent($event)" checked="true" slot="end" value="bird"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+                <ion-col size="6">
+                    <ion-item>
+                        <ion-label>Emlős</ion-label>
+                        <ion-checkbox (ionChange)="checkboxValuesEvent($event)" checked="true" slot="end" value="mammal"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+
+
+        <p *ngIf="huntableError" class="warning">Válasszon ki legalább egy vadászható opciót!</p>
+        <ion-item>
+            <ion-label>Vadászható-e?</ion-label>
+        </ion-item>
+
+
+        <ion-grid>
+            <ion-row>
+                <ion-col size="6">
+                    <ion-item>
+                        <ion-label>Igen</ion-label>
+                        <ion-checkbox (ionChange)="checkboxValuesEvent($event)" checked="true" slot="end" value="huntable"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+                <ion-col size="6">
+                    <ion-item>
+                        <ion-label>Nem</ion-label>
+                        <ion-checkbox (ionChange)="checkboxValuesEvent($event)" checked="true" slot="end" value="notHuntable"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+
+
+        <ion-item>
+            <ion-label>Vadászidény</ion-label>
+        </ion-item>
+
+        <ion-grid>
+            <ion-row>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>01</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="1"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>02</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="2"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>03</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="3"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>04</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="4"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>05</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="5"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>06</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="6"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>07</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="7"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>08</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="8"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>09</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="9"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>10</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="10"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>11</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="11"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+                <ion-col size="4">
+                    <ion-item>
+                        <ion-label>12</ion-label>
+                        <ion-checkbox (ionChange)="huntingSeasonCheckboxEvent($event)" color="primary" slot="start" value="12"></ion-checkbox>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-list>
+    <ion-button expand="block" class="search-button" (click)="search()">
+        Keresés
+    </ion-button>
+</ion-content>

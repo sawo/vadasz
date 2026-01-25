@@ -1,0 +1,73 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-title *ngIf="dataLoaded | async">{{currentAnimal.name}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="allathatarozo"
+                       text="Vissza">
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="dataLoaded | async" color="secondary">
+
+  <ion-card *ngIf="currentAnimal.picture.length < 2" class="ion-card-for-cover margin">
+    <ion-card-content class="ion-card-content-for-cover">
+      <ion-card-subtitle *ngIf="currentAnimal.picture[0]"
+                         class="slideshow-title">
+        {{currentAnimal.picture[0]}}
+      </ion-card-subtitle>
+      <ion-img [src]="'/assets/' + currentAnimal.picture[0]"
+               (ionError)="fetchLocalDataService.setPlaceholderImg($event)"></ion-img>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-slides *ngIf="currentAnimal.picture.length > 1" [options]="slideOptions">
+    <ion-slide *ngFor="let picture of currentAnimal.picture">
+      <ion-card class="ion-card-for-cover margin">
+
+        <ion-card-content class="ion-card-content-for-cover">
+          <ion-card-subtitle *ngIf="picture.imgDesc"
+                             class="slideshow-title">
+            {{picture.imgDesc}}
+          </ion-card-subtitle>
+          <ion-img [src]="'/assets/' + picture.img"
+                   (ionError)="fetchLocalDataService.setPlaceholderImg($event)"></ion-img>
+        </ion-card-content>
+
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <div class="details-title-row margin">
+    <ion-grid class="huntable-card">
+      <ion-row>
+        <span class="title">{{currentAnimal.name}}</span>
+      </ion-row>
+      <ion-row *ngIf="currentAnimal.nameInLatin">
+        <span class="animal-sub">{{currentAnimal.nameInLatin}}</span>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div *ngFor="let huntingseason of currentAnimal.huntingSeasons">
+
+  <div class="details-huntable-row margin">
+
+    <ion-grid class="huntable-card">
+      <ion-row>
+        <span class="title">Vadászidény: {{huntingseason.name}}</span>
+      </ion-row>
+      <ion-row>
+        <ion-col size="1" class="huntable-month" *ngFor="let month of getObjectKeys(huntingseason.months)">
+          <p style="position: absolute; width: 100%; margin: 30% auto 0 auto; text-align: center;">{{month}}</p>
+          <img *ngIf="huntingseason.months[month]==0" src="assets/icon/nemvadaszhato.svg">
+          <img *ngIf="huntingseason.months[month]==1" src="assets/icon/feligvadaszhato.svg">
+          <img *ngIf="huntingseason.months[month]==3" src="assets/icon/vadaszhato.svg">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  </div>
+  <p class="text-padding details-text">{{currentAnimal.description}}</p>
+</ion-content>
