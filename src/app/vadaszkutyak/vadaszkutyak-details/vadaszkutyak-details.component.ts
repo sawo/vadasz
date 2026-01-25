@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FetchLocalDataService } from '../../services/fetch-local-data.service';
 import { IonicModule } from '@ionic/angular';
@@ -19,6 +19,9 @@ import { RouterModule } from '@angular/router';
   ]
 })
 export class VadaszkutyakDetailsComponent implements OnInit {
+  private route = inject(ActivatedRoute);
+  fetchLocalDataService = inject(FetchLocalDataService);
+
 
   private passedData: number;
   private dogs;
@@ -26,8 +29,6 @@ export class VadaszkutyakDetailsComponent implements OnInit {
   public currentDog;
   private currentDogLink: string;
   private filterByUrl: {};
-
-  constructor(private route: ActivatedRoute, public fetchLocalDataService: FetchLocalDataService) { }
 
   ngOnInit() {
     this.passedData = history.state.data;

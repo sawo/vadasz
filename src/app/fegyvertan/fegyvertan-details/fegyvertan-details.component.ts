@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { FetchLocalDataService } from '../../services/fetch-local-data.service';
 import { IonicModule } from '@ionic/angular';
@@ -19,15 +19,15 @@ import { RouterModule } from '@angular/router';
               ]
            })
 export class FegyvertanDetailsComponent implements OnInit {
+  private route = inject(ActivatedRoute);
+  fetchLocalDataService = inject(FetchLocalDataService);
+
   private passedData: number;
   private options;
   public dataLoaded: Promise<boolean>;
   public currentOption;
   private currentLink: string;
   private filterByUrl: {};
-
-  constructor(private route: ActivatedRoute, public fetchLocalDataService: FetchLocalDataService) {
-  }
 
   accordionOpen = [];
 

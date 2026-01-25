@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { FetchLocalDataService } from '../services/fetch-local-data.service';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
@@ -18,13 +18,12 @@ import { RouterModule } from '@angular/router';
               ]
            })
 export class FegyvertanPage implements OnInit {
+  fetchLocalDataService = inject(FetchLocalDataService);
+
 
   public fegyvertanCategories;
   public dataLoaded: Promise<boolean>;
   public isOdd: boolean;
-
-  constructor(public fetchLocalDataService: FetchLocalDataService) {
-  }
 
   ngOnInit() {
     this.fetchLocalData().then(r => this.dataLoaded = Promise.resolve(true));

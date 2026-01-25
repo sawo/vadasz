@@ -1,4 +1,4 @@
-import { Component, CUSTOM_ELEMENTS_SCHEMA, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, ElementRef, OnInit, ViewChild, inject } from '@angular/core';
 import { Question } from './question.model';
 import { Answer } from './answer.model';
 import { Animation, AnimationController } from '@ionic/angular';
@@ -26,8 +26,10 @@ import { BaseChartDirective } from 'ng2-charts';
               schemas: [CUSTOM_ELEMENTS_SCHEMA]
            })
 export class OnlineTesztPage implements OnInit {
+  private animationCtrl = inject(AnimationController);
 
-  constructor(private animationCtrl: AnimationController) {
+
+  constructor() {
     Chart.register(PieController, ArcElement, Tooltip, Legend);
   }
   public selectedQuestion = 0;

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import {ModalController} from "@ionic/angular";
 import { FilteringService } from '../../services/filtering.service';
 import { IonicModule } from '@ionic/angular';
@@ -17,6 +17,9 @@ import { CommonModule } from '@angular/common';
   ]
 })
 export class FilterComponent implements OnInit {
+  modalCtrl = inject(ModalController);
+  filteringService = inject(FilteringService);
+
 
   public filterByName: string;
   public filterByLatinName: string;
@@ -47,8 +50,6 @@ export class FilterComponent implements OnInit {
   validFilter = true;
   huntableError = false;
   categoryError = false;
-
-  constructor(public modalCtrl: ModalController, public filteringService: FilteringService) { }
 
   ngOnInit() {}
 

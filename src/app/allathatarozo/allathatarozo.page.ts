@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import {AnimalModel} from './animal.model';
 import {IonRouterOutlet, ModalController} from '@ionic/angular';
 import {FilterComponent} from './filter/filter.component';
@@ -22,16 +22,18 @@ import { RouterModule } from '@angular/router';
     ]
 })
 export class AllathatarozoPage implements OnInit {
+    modalController = inject(ModalController);
+    fetchLocalDataService = inject(FetchLocalDataService);
+    filteringService = inject(FilteringService);
+    routerOutlet = inject(IonRouterOutlet);
+
 
     public animals: AnimalModel[];
     public dataLoaded: Promise<boolean>;
     public isOdd: boolean;
     private isFilteringOn = false;
 
-    constructor(public modalController: ModalController,
-                public fetchLocalDataService: FetchLocalDataService,
-                public filteringService: FilteringService,
-                public routerOutlet: IonRouterOutlet) {
+    constructor() {
         this.filteringService.isAnimalFilteringRequired.subscribe(value => {
             this.fetchAnimalData().then(r => this.dataLoaded = Promise.resolve(true));
             this.isFilteringOn = this.filteringService.filters;

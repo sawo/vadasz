@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { FetchLocalDataService } from '../services/fetch-local-data.service';
 import { VadaszkutyakFilterComponent } from './vadaszkutyak-filter/vadaszkutyak-filter.component';
@@ -22,6 +22,10 @@ import { RouterModule } from '@angular/router';
               ]
            })
 export class VadaszkutyakPage implements OnInit {
+  modalController = inject(ModalController);
+  fetchLocalDataService = inject(FetchLocalDataService);
+  filteringService = inject(FilteringService);
+
 
   public huntingDogs: VadaszkutyaModel[];
   private huntingDogsFiltered: VadaszkutyaModel[];
@@ -29,7 +33,7 @@ export class VadaszkutyakPage implements OnInit {
   public isOdd: boolean;
   private isFilteringOn = false;
 
-  constructor(public modalController: ModalController, public fetchLocalDataService: FetchLocalDataService, public filteringService: FilteringService) {
+  constructor() {
     this.filteringService.isHuntingDogFilteringRequired.subscribe(value => {
       this.fetchHuntingDogsData().then(r => this.dataLoaded = Promise.resolve(true));
       this.isFilteringOn = this.filteringService.filters;

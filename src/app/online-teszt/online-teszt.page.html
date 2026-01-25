@@ -87,7 +87,7 @@
                                 (click)="answerQuestion(selectedQuestion, answerId)"
                                 [ngClass]="{'correct-answer': answerId === question.correctAnswerId && questionAnswered[i], 'wrong-answer': !answers[i].correct && questionAnswered[i] && answerId === selectedAnswer[i]}">{{questionLetters[answerId]}}</ion-button>
                     <ion-button class="answer-button"
-                                (click)="answer.answerQuestion(selectedQuestion, answerId)"
+                                (click)="answerQuestion(selectedQuestion, answerId)"
                                 [ngClass]="{'correct-answer': answerId === question.correctAnswerId && questionAnswered[i], 'wrong-answer': !answers[i].correct && questionAnswered[i] && answerId === selectedAnswer[i]}">{{answer}}</ion-button>
                   </ion-item>
                   }

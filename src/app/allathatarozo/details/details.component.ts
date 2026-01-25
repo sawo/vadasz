@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { AnimalModel } from '../animal.model';
 import { FetchLocalDataService } from '../../services/fetch-local-data.service';
@@ -21,15 +21,15 @@ import { SlidesModule } from '../../slides/slides.module';
            })
 
 export class DetailsComponent implements OnInit {
+  private route = inject(ActivatedRoute);
+  fetchLocalDataService = inject(FetchLocalDataService);
+
   private passedData: number;
   private animals: AnimalModel[];
   public dataLoaded: Promise<boolean>;
   public currentAnimal: AnimalModel;
   private currentAnimalLink: string;
   private filterByUrl: {};
-
-  constructor(private route: ActivatedRoute, public fetchLocalDataService: FetchLocalDataService) {
-  }
 
   ngOnInit() {
     this.passedData = history.state.data;
