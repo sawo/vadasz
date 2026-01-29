@@ -1,5 +1,5 @@
 <ion-header translucent="true">
-  <ion-toolbar>
+  <ion-toolbar color="secondary">
     @if (dataLoaded | async) { <ion-title>{{currentAnimal.name}}</ion-title> }
     <ion-buttons slot="start">
       <ion-back-button defaultHref="allathatarozo"
@@ -9,7 +9,7 @@
   </ion-toolbar>
 </ion-header>
 
-@if (dataLoaded | async) { <ion-content color="secondary">
+@if (dataLoaded | async) { <ion-content>
 
   @if (currentAnimal.picture.length < 2) { <ion-card class="ion-card-for-cover margin">
     <ion-card-content class="ion-card-content-for-cover">

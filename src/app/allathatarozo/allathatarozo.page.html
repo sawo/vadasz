@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="secondary">
     <ion-title>Állathatározó</ion-title>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
@@ -7,7 +7,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content color="light">
+<ion-content>
   <ion-grid>
     <ion-row>
       <ion-col size="10"
@@ -23,7 +23,7 @@
       </ion-col>
     </ion-row>
   </ion-grid>
-  <ion-grid style="background-color: lightgrey;">
+  <ion-grid>
     @if (dataLoaded | async) {
       <ion-row class="animal-row">
         @for (animal of animals; track animal.id) {
@@ -40,7 +40,7 @@
                    (error)="fetchLocalDataService.setPlaceholderImg($event)">
             </div>
 
-            <span class="animal-name ion-text-center" style="background-color: whitesmoke;">{{animal.name}}</span>
+            <span class="animal-name ion-text-center">{{animal.name}}</span>
 
             <!--<ion-img class="animal-cards"
                      [src]="'/assets/' + animal.picture"></ion-img>
