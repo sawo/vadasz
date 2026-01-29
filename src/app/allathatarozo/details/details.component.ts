@@ -48,16 +48,18 @@ export class DetailsComponent implements OnInit {
     } else {
       this.route.paramMap.subscribe(params => {
         this.currentAnimalLink = params.get('name');
+        this.filterByUrl = {linkName: this.currentAnimalLink};
+        this.filterByUrlFunction(this.animals, this.currentAnimalLink);
       });
-      this.filterByUrl = {linkName: this.currentAnimalLink};
-      this.filterByUrlFunction(this.animals, this.currentAnimalLink);
     }
   }
 
   filterByUrlFunction(obj, filter) {
+    console.log(filter);
     for (let i = 0; i < Object.keys(obj).length; i++) {
       if (obj[i].linkName === filter) {
         this.currentAnimal = obj[i];
+        break;
       }
     }
   }

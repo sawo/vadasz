@@ -15,9 +15,9 @@
     <ion-card-content class="ion-card-content-for-cover">
       @if (currentAnimal.picture[0]) { <ion-card-subtitle
                          class="slideshow-title">
-        {{currentAnimal.picture[0]}}
+        {{currentAnimal.picture[0].imgDesc}}
       </ion-card-subtitle> }
-      <ion-img [src]="'/assets/' + currentAnimal.picture[0]"
+      <ion-img [src]="'/assets/' + currentAnimal.picture[0].img"
                (ionError)="fetchLocalDataService.setPlaceholderImg($event)"></ion-img>
     </ion-card-content>
   </ion-card> }
