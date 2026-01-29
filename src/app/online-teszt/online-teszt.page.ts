@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
 import { Chart, ChartData, ChartOptions, ChartType, ArcElement, Tooltip, Legend, PieController } from 'chart.js';
 
 
-import { BaseChartDirective } from 'ng2-charts';
+// import { BaseChartDirective } from 'ng2-charts';
 
 @Component({
              selector: 'app-online-teszt',
@@ -21,7 +21,7 @@ import { BaseChartDirective } from 'ng2-charts';
                 FormsModule,
                 IonicModule,
                 RouterModule,
-                BaseChartDirective
+                // BaseChartDirective
               ],
               schemas: [CUSTOM_ELEMENTS_SCHEMA]
            })
